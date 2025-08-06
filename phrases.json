@@ -2,33 +2,424 @@
   "weeks": [
     {
       "term": 1,
-      "week": 1,
+      "week": 8,
       "phrases": [
         {
-          "chinese": "你好",
-          "pinyin": "nǐ hǎo",
-          "english": "Hello",
-          "audio": "nihao.mp3"
+          "chinese": "我来数一数",
+          "pinyin": "wǒ lái shǔ yī shǔ",
+          "english": "Let me count",
+          "audio": "wo-lai-shu-yi-shu.mp3"
         },
         {
-          "chinese": "谢谢",
-          "pinyin": "xièxie",
-          "english": "Thank you",
-          "audio": "xiexie.mp3"
+          "chinese": "十个气球",
+          "pinyin": "shí gè qìqiú",
+          "english": "Ten balloons",
+          "audio": "shi-ge-qiqiu.mp3"
+        },
+        {
+          "chinese": "十个小朋友玩气球",
+          "pinyin": "shí gè xiǎopéngyǒu wán qìqiú",
+          "english": "Ten children play with balloons",
+          "audio": "shi-ge-xiaopengyou-wan-qiqiu.mp3"
+        },
+        {
+          "chinese": "一二三四五六七八九十",
+          "pinyin": "yī èr sān sì wǔ liù qī bā jiǔ shí",
+          "english": "One two three four five six seven eight nine ten",
+          "audio": "yi-er-san-si-wu-liu-qi-ba-jiu-shi.mp3"
         }
       ]
     },
     {
       "term": 1,
+      "week": 9,
+      "phrases": [
+        {
+          "chinese": "这是我的妈妈",
+          "pinyin": "zhè shì wǒ de māma",
+          "english": "This is my mom",
+          "audio": "zhe-shi-wo-de-mama.mp3"
+        },
+        {
+          "chinese": "这是我的爸爸",
+          "pinyin": "zhè shì wǒ de bàba",
+          "english": "This is my dad",
+          "audio": "zhe-shi-wo-de-baba.mp3"
+        },
+        {
+          "chinese": "这是我的爷爷",
+          "pinyin": "zhè shì wǒ de yéye",
+          "english": "This is my grandpa",
+          "audio": "zhe-shi-wo-de-yeye.mp3"
+        },
+        {
+          "chinese": "这是我的奶奶",
+          "pinyin": "zhè shì wǒ de nǎinai",
+          "english": "This is my grandma",
+          "audio": "zhe-shi-wo-de-nainai.mp3"
+        },
+        {
+          "chinese": "这是我的哥哥",
+          "pinyin": "zhè shì wǒ de gēge",
+          "english": "This is my older brother",
+          "audio": "zhe-shi-wo-de-gege.mp3"
+        },
+        {
+          "chinese": "这是我的姐姐",
+          "pinyin": "zhè shì wǒ de jiějie",
+          "english": "This is my older sister",
+          "audio": "zhe-shi-wo-de-jiejie.mp3"
+        },
+        {
+          "chinese": "这是我的弟弟",
+          "pinyin": "zhè shì wǒ de dìdi",
+          "english": "This is my younger brother",
+          "audio": "zhe-shi-wo-de-didi.mp3"
+        },
+        {
+          "chinese": "这是我的妹妹",
+          "pinyin": "zhè shì wǒ de mèimei",
+          "english": "This is my younger sister",
+          "audio": "zhe-shi-wo-de-meimei.mp3"
+        },
+        {
+          "chinese": "这是正方形",
+          "pinyin": "zhè shì zhèngfāngxíng",
+          "english": "This is a square",
+          "audio": "zhe-shi-zhengfangxing.mp3"
+        },
+        {
+          "chinese": "这是长方形",
+          "pinyin": "zhè shì chángfāngxíng",
+          "english": "This is a rectangle",
+          "audio": "zhe-shi-changfangxing.mp3"
+        },
+        {
+          "chinese": "这是三角形",
+          "pinyin": "zhè shì sānjiǎoxíng",
+          "english": "This is a triangle",
+          "audio": "zhe-shi-sanjiaoxing.mp3"
+        },
+        {
+          "chinese": "这是圆形",
+          "pinyin": "zhè shì yuánxíng",
+          "english": "This is a circle",
+          "audio": "zhe-shi-yuanxing.mp3"
+        }
+      ]
+    },
+    {
+      "term": 1,
+      "week": 10,
+      "phrases": [
+        {
+          "chinese": "我看到黑色的猫",
+          "pinyin": "wǒ kàndào hēisè de māo",
+          "english": "I see a black cat",
+          "audio": "wo-kandao-heise-de-mao.mp3"
+        },
+        {
+          "chinese": "我看到棕色的马",
+          "pinyin": "wǒ kàndào zōngsè de mǎ",
+          "english": "I see a brown horse",
+          "audio": "wo-kandao-zongse-de-ma.mp3"
+        },
+        {
+          "chinese": "我看到红色的牛",
+          "pinyin": "wǒ kàndào hóngsè de niú",
+          "english": "I see a red cow",
+          "audio": "wo-kandao-hongse-de-niu.mp3"
+        },
+        {
+          "chinese": "我看到绿色的鸭子",
+          "pinyin": "wǒ kàndào lǜsè de yāzi",
+          "english": "I see a green duck",
+          "audio": "wo-kandao-lvse-de-yazi.mp3"
+        },
+        {
+          "chinese": "我看到粉色的猪",
+          "pinyin": "wǒ kàndào fěnsè de zhū",
+          "english": "I see a pink pig",
+          "audio": "wo-kandao-fense-de-zhu.mp3"
+        },
+        {
+          "chinese": "我看到黄色的狗",
+          "pinyin": "wǒ kàndào huángsè de gǒu",
+          "english": "I see a yellow dog",
+          "audio": "wo-kandao-huangse-de-gou.mp3"
+        },
+        {
+          "chinese": "我看到一个气球",
+          "pinyin": "wǒ kàndào yí gè qìqiú",
+          "english": "I see a balloon",
+          "audio": "wo-kandao-yi-ge-qiqiu.mp3"
+        },
+        {
+          "chinese": "我看到二个人",
+          "pinyin": "wǒ kàndào èr gè rén",
+          "english": "I see two people",
+          "audio": "wo-kandao-er-ge-ren.mp3"
+        },
+        {
+          "chinese": "我看到三座大山",
+          "pinyin": "wǒ kàndào sān zuò dàshān",
+          "english": "I see three big mountains",
+          "audio": "wo-kandao-san-zuo-dashan.mp3"
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "week": 1,
+      "phrases": [
+        {
+          "chinese": "山上有一个人",
+          "pinyin": "shān shàng yǒu yí gè rén",
+          "english": "There is a person on the mountain",
+          "audio": "shan-shang-you-yi-ge-ren.mp3"
+        },
+        {
+          "chinese": "三个人向下走",
+          "pinyin": "sān gè rén xiàng xià zǒu",
+          "english": "Three people walk down",
+          "audio": "san-ge-ren-xiang-xia-zou.mp3"
+        },
+        {
+          "chinese": "比一比大小",
+          "pinyin": "bǐ yī bǐ dàxiǎo",
+          "english": "Compare sizes",
+          "audio": "bi-yi-bi-daxiao.mp3"
+        },
+        {
+          "chinese": "我看到四个苹果",
+          "pinyin": "wǒ kàndào sì gè píngguǒ",
+          "english": "I see four apples",
+          "audio": "wo-kandao-si-ge-pingguo.mp3"
+        }
+      ]
+    },
+    {
+      "term": 2,
       "week": 2,
       "phrases": [
         {
-          "chinese": "再见",
-          "pinyin": "zàijiàn",
-          "english": "Goodbye",
-          "audio": "zaijian.mp3"
+          "chinese": "小草小小的，大树大大的",
+          "pinyin": "xiǎo cǎo xiǎo xiǎo de, dà shù dà dà de",
+          "english": "The grass is small, the tree is big",
+          "audio": "xiao-cao-xiao-xiao-de-da-shu-da-da-de.mp3"
+        },
+        {
+          "chinese": "大树小小的，大山大大的",
+          "pinyin": "dà shù xiǎo xiǎo de, dà shān dà dà de",
+          "english": "The tree is small, the mountain is big",
+          "audio": "da-shu-xiao-xiao-de-da-shan-da-da-de.mp3"
+        },
+        {
+          "chinese": "大山小小的，天空大大的",
+          "pinyin": "dà shān xiǎo xiǎo de, tiānkōng dà dà de",
+          "english": "The mountain is small, the sky is big",
+          "audio": "da-shan-xiao-xiao-de-tiankong-da-da-de.mp3"
+        },
+        {
+          "chinese": "天空大大的，太阳小小的",
+          "pinyin": "tiānkōng dà dà de, tàiyáng xiǎo xiǎo de",
+          "english": "The sky is big, the sun is small",
+          "audio": "tiankong-da-da-de-taiyang-xiao-xiao-de.mp3"
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "week": 3,
+      "phrases": [
+        {
+          "chinese": "五个小朋友",
+          "pinyin": "wǔ gè xiǎo péngyǒu",
+          "english": "Five little children",
+          "audio": "wu-ge-xiao-pengyou.mp3"
+        },
+        {
+          "chinese": "星期六不上学",
+          "pinyin": "xīngqīliù bú shàngxué",
+          "english": "No school on Saturday",
+          "audio": "xingqiliu-bu-shangxue.mp3"
+        },
+        {
+          "chinese": "吃了一大口",
+          "pinyin": "chī le yí dà kǒu",
+          "english": "Took a big bite",
+          "audio": "chi-le-yi-da-kou.mp3"
+        },
+        {
+          "chinese": "没有人在中间",
+          "pinyin": "méi yǒu rén zài zhōngjiān",
+          "english": "No one is in the middle",
+          "audio": "mei-you-ren-zai-zhongjian.mp3"
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "week": 4,
+      "phrases": [
+        {
+          "chinese": "天空小小的，太阳大大的",
+          "pinyin": "tiānkōng xiǎo xiǎo de, tàiyáng dà dà de",
+          "english": "The sky is small, the sun is big",
+          "audio": "tiankong-xiao-xiao-de-taiyang-da-da-de.mp3"
+        },
+        {
+          "chinese": "太阳小小的，星星大大的",
+          "pinyin": "tàiyáng xiǎo xiǎo de, xīngxing dà dà de",
+          "english": "The sun is small, the stars are big",
+          "audio": "taiyang-xiao-xiao-de-xingxing-da-da-de.mp3"
+        },
+        {
+          "chinese": "我小小的，爸爸大大的",
+          "pinyin": "wǒ xiǎo xiǎo de, bàba dà dà de",
+          "english": "I am small, dad is big",
+          "audio": "wo-xiao-xiao-de-baba-da-da-de.mp3"
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "week": 5,
+      "phrases": [
+        {
+          "chinese": "我在山上看日出",
+          "pinyin": "wǒ zài shān shàng kàn rìchū",
+          "english": "I watch the sunrise from the mountain",
+          "audio": "wo-zai-shan-shang-kan-richu.mp3"
+        },
+        {
+          "chinese": "天上有个月亮",
+          "pinyin": "tiān shàng yǒu ge yuèliang",
+          "english": "There is a moon in the sky",
+          "audio": "tian-shang-you-ge-yueliang.mp3"
+        },
+        {
+          "chinese": "天上下雨了",
+          "pinyin": "tiān shàng xià yǔ le",
+          "english": "It is raining from the sky",
+          "audio": "tian-shang-xia-yu-le.mp3"
+        },
+        {
+          "chinese": "这片美丽的土地",
+          "pinyin": "zhè piàn měilì de tǔdì",
+          "english": "This beautiful land",
+          "audio": "zhe-pian-meili-de-tudi.mp3"
+        },
+        {
+          "chinese": "我爱问妈妈",
+          "pinyin": "wǒ ài wèn māma",
+          "english": "I love to ask mom questions",
+          "audio": "wo-ai-wen-mama.mp3"
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "week": 6,
+      "phrases": [
+        {
+          "chinese": "一什么一？一人一",
+          "pinyin": "yī shénme yī? yī rén yī",
+          "english": "One what one? One person one",
+          "audio": "yi-shenme-yi-yi-ren-yi.mp3"
+        },
+        {
+          "chinese": "二什么二？二小兔二",
+          "pinyin": "èr shénme èr? èr xiǎo tù èr",
+          "english": "Two what two? Two little rabbits two",
+          "audio": "er-shenme-er-er-xiao-tu-er.mp3"
+        },
+        {
+          "chinese": "三什么三？三大山三",
+          "pinyin": "sān shénme sān? sān dà shān sān",
+          "english": "Three what three? Three big mountains three",
+          "audio": "san-shenme-san-san-da-shan-san.mp3"
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "week": 7,
+      "phrases": [
+        {
+          "chinese": "一二三，木头人",
+          "pinyin": "yī èr sān, mùtou rén",
+          "english": "One two three, wooden person (freeze game)",
+          "audio": "yi-er-san-mutou-ren.mp3"
+        },
+        {
+          "chinese": "一个星期有七天",
+          "pinyin": "yí gè xīngqī yǒu qī tiān",
+          "english": "A week has seven days",
+          "audio": "yi-ge-xingqi-you-qi-tian.mp3"
+        },
+        {
+          "chinese": "我看到八只山羊",
+          "pinyin": "wǒ kàndào bā zhī shānyáng",
+          "english": "I see eight goats",
+          "audio": "wo-kandao-ba-zhi-shanyang.mp3"
+        },
+        {
+          "chinese": "我看到天上有九只小鸟",
+          "pinyin": "wǒ kàndào tiānshàng yǒu jiǔ zhī xiǎo niǎo",
+          "english": "I see nine little birds in the sky",
+          "audio": "wo-kandao-tianshang-you-jiu-zhi-xiao-niao.mp3"
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "week": 8,
+      "phrases": [
+        {
+          "chinese": "四什么四？四飞鸟四",
+          "pinyin": "sì shénme sì? sì fēi niǎo sì",
+          "english": "Four what four? Four flying birds four",
+          "audio": "si-shenme-si-si-fei-niao-si.mp3"
+        },
+        {
+          "chinese": "五什么五？五小花五。五爱心五",
+          "pinyin": "wǔ shénme wǔ? wǔ xiǎo huā wǔ. wǔ àixīn wǔ",
+          "english": "Five what five? Five small flowers five. Five hearts five",
+          "audio": "wu-shenme-wu-wu-xiao-hua-wu-wu-aixin-wu.mp3"
+        },
+        {
+          "chinese": "我爱妈妈。妈妈爱我",
+          "pinyin": "wǒ ài māma. māma ài wǒ",
+          "english": "I love mom. Mom loves me",
+          "audio": "wo-ai-mama-mama-ai-wo.mp3"
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "week": 9,
+      "phrases": [
+        {
+          "chinese": "我有十根手指",
+          "pinyin": "wǒ yǒu shí gēn shǒuzhǐ",
+          "english": "I have ten fingers",
+          "audio": "wo-you-shi-gen-shouzhi.mp3"
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "week": 10,
+      "phrases": [
+        {
+          "chinese": "山上有一只大山羊",
+          "pinyin": "shān shàng yǒu yì zhī dà shānyáng",
+          "english": "There is a big goat on the mountain",
+          "audio": "shan-shang-you-yi-zhi-da-shanyang.mp3"
         }
       ]
     }
   ]
 }
+
