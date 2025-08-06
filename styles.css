@@ -72,3 +72,7 @@ button:hover {
   font-size: 1.2rem;
   cursor: pointer;
 }
+
+.grid button {
+  font-family: 'Kaiti', 'KaiTi', 'KaiTi SC', 'STKaiti', 'AR PL KaitiM GB', serif;
+}
