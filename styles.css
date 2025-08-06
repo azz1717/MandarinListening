@@ -48,9 +48,9 @@ h1 {
   background-color: #e0e0e0;
   color: black;
   border: none;
-  padding: 1rem 1.5rem;
-  border-radius: 8px;
-  font-size: clamp(1.6rem, 4vw, 2.4rem); /* child-readable size */
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  font-size: clamp(2.4rem, 5vw, 4rem);  /* Significantly larger */
   cursor: pointer;
   font-family: inherit;
   width: 100%;
