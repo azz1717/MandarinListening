@@ -1,49 +1,88 @@
 /* styles.css */
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Kaiti', 'KaiTi', 'KaiTi SC', 'STKaiti', 'AR PL KaitiM GB', serif;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
   background: #f0f4f8;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .container {
-  max-width: 800px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 1rem;
-  width: 100%;
+  box-sizing: border-box;
 }
 
 h1 {
   text-align: center;
   color: #333;
+  margin-bottom: 1rem;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+#week-info {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+#phrase-buttons {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 1rem;
-  margin: 1rem 0;
 }
 
-button {
-  padding: 0.8rem;
+#phrase-buttons > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#phrase-buttons button {
+  background-color: #e0e0e0;
+  color: black;
   border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  background-color: #4a90e2;
-  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-size: 1.1rem;
   cursor: pointer;
-  transition: background 0.3s;
+  font-family: inherit;
 }
 
-button:hover {
-  background-color: #357ab8;
+#phrase-buttons button:hover {
+  background-color: #d0d0d0;
 }
 
 .controls {
   display: flex;
   justify-content: space-between;
+  padding: 1rem;
+  width: 100%;
+  max-width: 600px;
+  margin-top: auto;
+}
+
+.controls button {
+  flex: 1;
+  margin: 0 0.5rem;
+  background-color: #4a90e2;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.controls button:hover {
+  background-color: #357ab8;
 }
 
 .modal {
@@ -71,8 +110,4 @@ button:hover {
   float: right;
   font-size: 1.2rem;
   cursor: pointer;
-}
-
-.grid button {
-  font-family: 'Kaiti', 'KaiTi', 'KaiTi SC', 'STKaiti', 'AR PL KaitiM GB', serif;
 }
