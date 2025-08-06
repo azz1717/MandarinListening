@@ -127,6 +127,19 @@ h1 {
   color: #222;
 }
 
+.modal-content p:first-of-type {
+  white-space: nowrap;   /* Pinyin never wraps */
+  font-family: 'YourPreferredFontForPinyin', sans-serif;
+  font-size: 1.4rem; /* adjust size */
+  margin-bottom: 0.5rem;
+}
+
+.modal-content p:last-of-type {
+  white-space: normal;   /* English can wrap */
+  font-family: 'YourPreferredFontForEnglish', serif;
+  font-size: 1.2rem; /* adjust size */
+}
+
 
 .close {
   float: right;

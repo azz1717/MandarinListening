@@ -39,13 +39,19 @@ function renderWeek() {
     });
 
     const infoBtn = document.createElement('span');
-    infoBtn.textContent = '❓';
-    infoBtn.style.marginLeft = '8px';
-    infoBtn.style.cursor = 'pointer';
-    infoBtn.addEventListener('click', () => {
-      modalText.innerHTML = `<strong>Pinyin:</strong> ${phrase.pinyin}<br><strong>English:</strong> ${phrase.english}`;
-      modal.classList.remove('hidden');
-    });
+		infoBtn.textContent = '❓';
+		infoBtn.style.marginLeft = '8px';
+		infoBtn.style.cursor = 'pointer';
+
+		infoBtn.addEventListener('click', () => {
+		  // Clear old content
+		  document.getElementById('modal-pinyin').textContent = phrase.pinyin;
+		  document.getElementById('modal-english').textContent = phrase.english;
+
+		  // Show modal
+		  document.getElementById('info-modal').classList.remove('hidden');
+	});
+
 
     const wrapper = document.createElement('div');
     wrapper.appendChild(btn);
