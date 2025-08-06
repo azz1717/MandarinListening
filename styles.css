@@ -107,14 +107,26 @@ h1 {
 
 .modal-content {
   background: white;
-  padding: 1rem;
+  padding: 1.5rem 2rem;
   border-radius: 10px;
-  max-width: 300px;
+  /* Let width adjust but keep it reasonable */
+  width: auto;
+  max-width: 90vw;
+  min-width: 200px;
   text-align: center;
-  white-space: nowrap;
-  overflow-x: auto;
-  font-size: 1.5rem; 
+
+  /* Allow text to wrap naturally */
+  white-space: normal;
+
+  /* Remove scroll bar */
+  overflow: visible;
+
+  /* Font styles */
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;  /* Adjust as needed */
+  color: #222;
 }
+
 
 .close {
   float: right;
