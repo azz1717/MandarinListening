@@ -1,0 +1,34 @@
+{
+  "weeks": [
+    {
+      "term": 1,
+      "week": 1,
+      "phrases": [
+        {
+          "chinese": "你好",
+          "pinyin": "nǐ hǎo",
+          "english": "Hello",
+          "audio": "nihao.mp3"
+        },
+        {
+          "chinese": "谢谢",
+          "pinyin": "xièxie",
+          "english": "Thank you",
+          "audio": "xiexie.mp3"
+        }
+      ]
+    },
+    {
+      "term": 1,
+      "week": 2,
+      "phrases": [
+        {
+          "chinese": "再见",
+          "pinyin": "zàijiàn",
+          "english": "Goodbye",
+          "audio": "zaijian.mp3"
+        }
+      ]
+    }
+  ]
+}
