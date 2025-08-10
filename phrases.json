@@ -419,7 +419,61 @@
           "audio": "shan-shang-you-yi-zhi-da-shanyang.mp3"
         }
       ]
-    }
+    },
+	{
+	  "term": 3,
+	  "week": 1,
+	  "phrases": [
+		{
+		  "chinese": "三只小羊上山。",
+		  "pinyin": "sān zhī xiǎo yáng shàng shān",
+		  "english": "Three little sheep go up the mountain",
+		  "audio": "san-zhi-xiao-yang-shang-shan.mp3"
+		},
+		{
+		  "chinese": "山上有一头大水牛。",
+		  "pinyin": "shān shàng yǒu yī tóu dà shuǐniú",
+		  "english": "There is a big water buffalo on the mountain",
+		  "audio": "shan-shang-you-yi-tou-da-shuiniu.mp3"
+		},
+		{
+		  "chinese": "一座大火山。",
+		  "pinyin": "yī zuò dà huǒshān",
+		  "english": "A big volcano",
+		  "audio": "yi-zuo-da-huoshan.mp3"
+		}
+	  ]
+	},
+	{
+	  "term": 3,
+	  "week": 2,
+	  "phrases": [
+		{
+		  "chinese": "我爱笑，我爱跳。",
+		  "pinyin": "wǒ ài xiào, wǒ ài tiào",
+		  "english": "I love to laugh, I love to jump",
+		  "audio": "wo-ai-xiao-wo-ai-tiao.mp3"
+		},
+		{
+		  "chinese": "我上去了，我下来了。",
+		  "pinyin": "wǒ shàng qù le, wǒ xià lái le",
+		  "english": "I went up, I came down",
+		  "audio": "wo-shang-qu-le-wo-xia-lai-le.mp3"
+		},
+		{
+		  "chinese": "我是小马，跑跑跑。",
+		  "pinyin": "wǒ shì xiǎo mǎ, pǎo pǎo pǎo",
+		  "english": "I am a little horse, run run run",
+		  "audio": "wo-shi-xiao-ma-pao-pao-pao.mp3"
+		},
+		{
+		  "chinese": "我的快乐少不了。",
+		  "pinyin": "wǒ de kuàilè shǎo bù liǎo",
+		  "english": "My happiness cannot be without it",
+		  "audio": "wo-de-kuaile-shao-bu-liao.mp3"
+		}
+	  ]
+	}
   ]
 }
 
