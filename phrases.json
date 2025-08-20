@@ -473,6 +473,66 @@
 		  "audio": "wo-de-kuaile-shao-bu-liao.mp3"
 		}
 	  ]
+	},
+	{
+	  "term": 3,
+	  "week": 3,
+	  "phrases": [
+		{
+		  "chinese": "我有小手，妈妈有大手。",
+		  "pinyin": "wǒ yǒu xiǎo shǒu, māma yǒu dà shǒu",
+		  "english": "I have small hands, Mom has big hands",
+		  "audio": "wo-you-xiao-shou-mama-you-da-shou.mp3"
+		},
+		{
+		  "chinese": "我要喝水。",
+		  "pinyin": "wǒ yào hē shuǐ",
+		  "english": "I want to drink water",
+		  "audio": "wo-yao-he-shui.mp3"
+		},
+		{
+		  "chinese": "山上有很多大石头。",
+		  "pinyin": "shān shàng yǒu hěn duō dà shí tou",
+		  "english": "There are many big rocks on the mountain",
+		  "audio": "shan-shang-you-hen-duo-da-shi-tou.mp3"
+		},
+		{
+		  "chinese": "没有人在门口。",
+		  "pinyin": "méiyǒu rén zài mén kǒu",
+		  "english": "There is no one at the door",
+		  "audio": "meiyou-ren-zai-men-kou.mp3"
+		}
+	  ]
+	},
+	{
+	  "term": 3,
+	  "week": 4,
+	  "phrases": [
+		{
+		  "chinese": "我是牛，我是鸟。",
+		  "pinyin": "wǒ shì niú, wǒ shì niǎo",
+		  "english": "I am a cow, I am a bird",
+		  "audio": "wo-shi-niu-wo-shi-niao.mp3"
+		},
+		{
+		  "chinese": "我是山，我是羊。",
+		  "pinyin": "wǒ shì shān, wǒ shì yáng",
+		  "english": "I am a mountain, I am a sheep",
+		  "audio": "wo-shi-shan-wo-shi-yang.mp3"
+		},
+		{
+		  "chinese": "我是太阳，月亮，大树，草。",
+		  "pinyin": "wǒ shì tàiyáng, yuèliàng, dà shù, cǎo",
+		  "english": "I am the sun, the moon, a big tree, and grass",
+		  "audio": "wo-shi-taiyang-yueliang-da-shu-cao.mp3"
+		},
+		{
+		  "chinese": "我是星星，笑笑笑。",
+		  "pinyin": "wǒ shì xīngxing, xiào xiào xiào",
+		  "english": "I am a star, laugh laugh laugh",
+		  "audio": "wo-shi-xingxing-xiao-xiao-xiao.mp3"
+		}
+	  ]
 	}
   ]
 }
