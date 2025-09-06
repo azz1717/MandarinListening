@@ -201,25 +201,29 @@
           "chinese": "山上有一个人",
           "pinyin": "shān shàng yǒu yí gè rén",
           "english": "There is a person on the mountain",
-          "audio": "shan-shang-you-yi-ge-ren.mp3"
+          "audio": "shan-shang-you-yi-ge-ren.mp3",
+		  "image": "t2w1_1.jpg"
         },
         {
           "chinese": "三个人向下走",
           "pinyin": "sān gè rén xiàng xià zǒu",
           "english": "Three people walk down",
-          "audio": "san-ge-ren-xiang-xia-zou.mp3"
+          "audio": "san-ge-ren-xiang-xia-zou.mp3",
+		  "image": "t2w1_2.jpg"
         },
         {
           "chinese": "比一比大小",
           "pinyin": "bǐ yī bǐ dàxiǎo",
           "english": "Compare sizes",
-          "audio": "bi-yi-bi-daxiao.mp3"
+          "audio": "bi-yi-bi-daxiao.mp3",
+		  "image": "t2w1_3.jpg"
         },
         {
           "chinese": "我看到四个苹果",
           "pinyin": "wǒ kàndào sì gè píngguǒ",
           "english": "I see four apples",
-          "audio": "wo-kandao-si-ge-pingguo.mp3"
+          "audio": "wo-kandao-si-ge-pingguo.mp3",
+		  "image": "t2w1_4.jpg"
         }
       ]
     },
@@ -231,25 +235,29 @@
           "chinese": "小草小小的，大树大大的",
           "pinyin": "xiǎo cǎo xiǎo xiǎo de, dà shù dà dà de",
           "english": "The grass is small, the tree is big",
-          "audio": "xiao-cao-xiao-xiao-de-da-shu-da-da-de.mp3"
+          "audio": "xiao-cao-xiao-xiao-de-da-shu-da-da-de.mp3",
+		  "image": "t2w2_1.jpg"
         },
         {
           "chinese": "大树小小的，大山大大的",
           "pinyin": "dà shù xiǎo xiǎo de, dà shān dà dà de",
           "english": "The tree is small, the mountain is big",
-          "audio": "da-shu-xiao-xiao-de-da-shan-da-da-de.mp3"
+          "audio": "da-shu-xiao-xiao-de-da-shan-da-da-de.mp3",
+		  "image": "t2w2_2.jpg"
         },
         {
           "chinese": "大山小小的，天空大大的",
           "pinyin": "dà shān xiǎo xiǎo de, tiānkōng dà dà de",
           "english": "The mountain is small, the sky is big",
-          "audio": "da-shan-xiao-xiao-de-tiankong-da-da-de.mp3"
+          "audio": "da-shan-xiao-xiao-de-tiankong-da-da-de.mp3",
+		  "image": "t2w2_3.jpg"
         },
         {
           "chinese": "天空大大的，太阳小小的",
           "pinyin": "tiānkōng dà dà de, tàiyáng xiǎo xiǎo de",
           "english": "The sky is big, the sun is small",
-          "audio": "tiankong-da-da-de-taiyang-xiao-xiao-de.mp3"
+          "audio": "tiankong-da-da-de-taiyang-xiao-xiao-de.mp3",
+		  "image": "t2w2_4.jpg"
         }
       ]
     },
