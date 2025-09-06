@@ -71,24 +71,28 @@ function renderWeek() {
   weekInfo.textContent = `Term ${week.term} - Week ${week.week}`;
   phraseContainer.innerHTML = '';
 
-  week.phrases.forEach((phrase) => {
+week.phrases.forEach((phrase) => {
     const btn = document.createElement('button');
 
-    // If the phrase has an image, use it inside the button
     if (phrase.image) {
       const img = document.createElement('img');
-      img.src = `images/${phrase.image}`; // adjust path if needed
+      img.src = `images/${phrase.image}`;
       img.alt = phrase.chinese;
-      img.style.width = '150px';    // adjust size as needed
+      img.style.width = '100%';
       img.style.height = 'auto';
-      img.style.objectFit = 'contain';
+      img.style.display = 'block';
       btn.appendChild(img);
+
+      // remove padding so image fills button
+      btn.style.padding = '0';
+      btn.style.border = 'none';
+      btn.style.background = 'none';
+      btn.style.cursor = 'pointer';
     } else {
-      // fallback to text if no image
       btn.textContent = phrase.chinese;
+      btn.style.padding = '1.5rem 2rem'; // keep original padding for text buttons
     }
 
-    // Play audio on button click
     btn.addEventListener('click', () => {
       if (phrase.audio) {
         const audio = new Audio(`audio/${phrase.audio}`);
@@ -96,7 +100,6 @@ function renderWeek() {
       }
     });
 
-    // Info button
     const infoBtn = document.createElement('span');
     infoBtn.textContent = '❓';
     infoBtn.style.marginLeft = '8px';
@@ -108,12 +111,12 @@ function renderWeek() {
       modal.classList.remove('hidden');
     });
 
-    // Wrap button and info button
     const wrapper = document.createElement('div');
     wrapper.appendChild(btn);
     wrapper.appendChild(infoBtn);
     phraseContainer.appendChild(wrapper);
-  });
+});
+
 }
 
 
