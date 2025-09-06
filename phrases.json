@@ -353,13 +353,6 @@
           "english": "This beautiful land",
           "audio": "zhe-pian-meili-de-tudi.mp3",
 		  "image": "t2w5_4.jpg"
-        },
-        {
-          "chinese": "我爱问妈妈",
-          "pinyin": "wǒ ài wèn māma",
-          "english": "I love to ask mom questions",
-          "audio": "wo-ai-wen-mama.mp3",
-		  "image": "t2w5_5.jpg"
         }
       ]
     },
@@ -367,26 +360,33 @@
       "term": 2,
       "week": 6,
       "phrases": [
+	    {
+          "chinese": "我爱问妈妈",
+          "pinyin": "wǒ ài wèn māma",
+          "english": "I love to ask mom questions",
+          "audio": "wo-ai-wen-mama.mp3",
+		  "image": "t2w6_1.jpg"
+        },
         {
           "chinese": "一什么一？一人一",
           "pinyin": "yī shénme yī? yī rén yī",
           "english": "One what one? One person one",
           "audio": "yi-shenme-yi-yi-ren-yi.mp3",
-		  "image": "t2w6_1.jpg"
+		  "image": "t2w6_2.jpg"
         },
         {
           "chinese": "二什么二？二小兔二",
           "pinyin": "èr shénme èr? èr xiǎo tù èr",
           "english": "Two what two? Two little rabbits two",
           "audio": "er-shenme-er-er-xiao-tu-er.mp3",
-		  "image": "t2w6_2.jpg"
+		  "image": "t2w6_3.jpg"
         },
         {
           "chinese": "三什么三？三大山三",
           "pinyin": "sān shénme sān? sān dà shān sān",
           "english": "Three what three? Three big mountains three",
           "audio": "san-shenme-san-san-da-shan-san.mp3",
-		  "image": "t2w6_3.jpg"
+		  "image": "t2w6_4.jpg"
         }
       ]
     },
@@ -398,25 +398,29 @@
           "chinese": "一二三，木头人",
           "pinyin": "yī èr sān, mùtou rén",
           "english": "One two three, wooden person (freeze game)",
-          "audio": "yi-er-san-mutou-ren.mp3"
+          "audio": "yi-er-san-mutou-ren.mp3",
+		  "image": "t2w7_1.jpg"
         },
         {
           "chinese": "一个星期有七天",
           "pinyin": "yí gè xīngqī yǒu qī tiān",
           "english": "A week has seven days",
-          "audio": "yi-ge-xingqi-you-qi-tian.mp3"
+          "audio": "yi-ge-xingqi-you-qi-tian.mp3",
+		  "image": "t2w7_2.jpg"
         },
         {
           "chinese": "我看到八只山羊",
           "pinyin": "wǒ kàndào bā zhī shānyáng",
           "english": "I see eight goats",
-          "audio": "wo-kandao-ba-zhi-shanyang.mp3"
+          "audio": "wo-kandao-ba-zhi-shanyang.mp3",
+		  "image": "t2w7_3.jpg"
         },
         {
           "chinese": "我看到天上有九只小鸟",
           "pinyin": "wǒ kàndào tiānshàng yǒu jiǔ zhī xiǎo niǎo",
           "english": "I see nine little birds in the sky",
-          "audio": "wo-kandao-tianshang-you-jiu-zhi-xiao-niao.mp3"
+          "audio": "wo-kandao-tianshang-you-jiu-zhi-xiao-niao.mp3",
+		  "image": "t2w7_4.jpg"
         }
       ]
     },
@@ -428,19 +432,22 @@
           "chinese": "四什么四？四飞鸟四",
           "pinyin": "sì shénme sì? sì fēi niǎo sì",
           "english": "Four what four? Four flying birds four",
-          "audio": "si-shenme-si-si-fei-niao-si.mp3"
+          "audio": "si-shenme-si-si-fei-niao-si.mp3",
+		  "image": "t2w8_1.jpg"
         },
         {
           "chinese": "五什么五？五小花五。五爱心五",
           "pinyin": "wǔ shénme wǔ? wǔ xiǎo huā wǔ. wǔ àixīn wǔ",
           "english": "Five what five? Five small flowers five. Five hearts five",
-          "audio": "wu-shenme-wu-wu-xiao-hua-wu-wu-aixin-wu.mp3"
+          "audio": "wu-shenme-wu-wu-xiao-hua-wu-wu-aixin-wu.mp3",
+		  "image": "t2w8_2.jpg"
         },
         {
           "chinese": "我爱妈妈。妈妈爱我",
           "pinyin": "wǒ ài māma. māma ài wǒ",
           "english": "I love mom. Mom loves me",
-          "audio": "wo-ai-mama-mama-ai-wo.mp3"
+          "audio": "wo-ai-mama-mama-ai-wo.mp3",
+		  "image": "t2w8_3.jpg"
         }
       ]
     },
