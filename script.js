@@ -73,12 +73,30 @@ function renderWeek() {
 
   week.phrases.forEach((phrase) => {
     const btn = document.createElement('button');
-    btn.textContent = phrase.chinese;
+
+    // If the phrase has an image, use it inside the button
+    if (phrase.image) {
+      const img = document.createElement('img');
+      img.src = `images/${phrase.image}`; // adjust path if needed
+      img.alt = phrase.chinese;
+      img.style.width = '150px';    // adjust size as needed
+      img.style.height = 'auto';
+      img.style.objectFit = 'contain';
+      btn.appendChild(img);
+    } else {
+      // fallback to text if no image
+      btn.textContent = phrase.chinese;
+    }
+
+    // Play audio on button click
     btn.addEventListener('click', () => {
-      const audio = new Audio(`audio/${phrase.audio}`);
-      audio.play();
+      if (phrase.audio) {
+        const audio = new Audio(`audio/${phrase.audio}`);
+        audio.play();
+      }
     });
 
+    // Info button
     const infoBtn = document.createElement('span');
     infoBtn.textContent = '❓';
     infoBtn.style.marginLeft = '8px';
@@ -90,12 +108,14 @@ function renderWeek() {
       modal.classList.remove('hidden');
     });
 
+    // Wrap button and info button
     const wrapper = document.createElement('div');
     wrapper.appendChild(btn);
     wrapper.appendChild(infoBtn);
     phraseContainer.appendChild(wrapper);
   });
 }
+
 
 // load data
 fetch('phrases.json')

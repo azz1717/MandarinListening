@@ -8,25 +8,29 @@
           "chinese": "我来数一数",
           "pinyin": "wǒ lái shǔ yī shǔ",
           "english": "Let me count",
-          "audio": "wo-lai-shu-yi-shu.mp3"
+          "audio": "wo-lai-shu-yi-shu.mp3",
+		  "image": "t1w8_1.jpg"
         },
         {
           "chinese": "十个气球",
           "pinyin": "shí gè qìqiú",
           "english": "Ten balloons",
-          "audio": "shi-ge-qiqiu.mp3"
+          "audio": "shi-ge-qiqiu.mp3",
+		  "image": "t1w8_2.jpg"
         },
         {
           "chinese": "十个小朋友玩气球",
           "pinyin": "shí gè xiǎopéngyǒu wán qìqiú",
           "english": "Ten children play with balloons",
-          "audio": "shi-ge-xiaopengyou-wan-qiqiu.mp3"
+          "audio": "shi-ge-xiaopengyou-wan-qiqiu.mp3",
+		  "image": "t1w8_3.jpg"
         },
         {
           "chinese": "一二三四五六七八九十",
           "pinyin": "yī èr sān sì wǔ liù qī bā jiǔ shí",
           "english": "One two three four five six seven eight nine ten",
-          "audio": "yi-er-san-si-wu-liu-qi-ba-jiu-shi.mp3"
+          "audio": "yi-er-san-si-wu-liu-qi-ba-jiu-shi.mp3",
+		  "image": "t1w8_4.jpg"
         }
       ]
     },
@@ -38,73 +42,85 @@
           "chinese": "这是我的妈妈",
           "pinyin": "zhè shì wǒ de māma",
           "english": "This is my mom",
-          "audio": "zhe-shi-wo-de-mama.mp3"
+          "audio": "zhe-shi-wo-de-mama.mp3",
+		  "image": "t1w9_1.jpg"
         },
         {
           "chinese": "这是我的爸爸",
           "pinyin": "zhè shì wǒ de bàba",
           "english": "This is my dad",
-          "audio": "zhe-shi-wo-de-baba.mp3"
+          "audio": "zhe-shi-wo-de-baba.mp3",
+		  "image": "t1w9_2.jpg"
         },
         {
           "chinese": "这是我的爷爷",
           "pinyin": "zhè shì wǒ de yéye",
           "english": "This is my grandpa",
-          "audio": "zhe-shi-wo-de-yeye.mp3"
+          "audio": "zhe-shi-wo-de-yeye.mp3",
+		  "image": "t1w9_3.jpg"
         },
         {
           "chinese": "这是我的奶奶",
           "pinyin": "zhè shì wǒ de nǎinai",
           "english": "This is my grandma",
-          "audio": "zhe-shi-wo-de-nainai.mp3"
+          "audio": "zhe-shi-wo-de-nainai.mp3",
+		  "image": "t1w9_4.jpg"
         },
         {
           "chinese": "这是我的哥哥",
           "pinyin": "zhè shì wǒ de gēge",
           "english": "This is my older brother",
-          "audio": "zhe-shi-wo-de-gege.mp3"
+          "audio": "zhe-shi-wo-de-gege.mp3",
+		  "image": "t1w9_5.jpg"
         },
         {
           "chinese": "这是我的姐姐",
           "pinyin": "zhè shì wǒ de jiějie",
           "english": "This is my older sister",
-          "audio": "zhe-shi-wo-de-jiejie.mp3"
+          "audio": "zhe-shi-wo-de-jiejie.mp3",
+		  "image": "t1w9_6.jpg"
         },
         {
           "chinese": "这是我的弟弟",
           "pinyin": "zhè shì wǒ de dìdi",
           "english": "This is my younger brother",
-          "audio": "zhe-shi-wo-de-didi.mp3"
+          "audio": "zhe-shi-wo-de-didi.mp3",
+		  "image": "t1w9_7.jpg"
         },
         {
           "chinese": "这是我的妹妹",
           "pinyin": "zhè shì wǒ de mèimei",
           "english": "This is my younger sister",
-          "audio": "zhe-shi-wo-de-meimei.mp3"
+          "audio": "zhe-shi-wo-de-meimei.mp3",
+		  "image": "t1w9_8.jpg"
         },
         {
           "chinese": "这是正方形",
           "pinyin": "zhè shì zhèngfāngxíng",
           "english": "This is a square",
-          "audio": "zhe-shi-zhengfangxing.mp3"
+          "audio": "zhe-shi-zhengfangxing.mp3",
+		  "image": "t1w9_9.jpg"
         },
         {
           "chinese": "这是长方形",
           "pinyin": "zhè shì chángfāngxíng",
           "english": "This is a rectangle",
-          "audio": "zhe-shi-changfangxing.mp3"
+          "audio": "zhe-shi-changfangxing.mp3",
+		  "image": "t1w9_10.jpg"
         },
         {
           "chinese": "这是三角形",
           "pinyin": "zhè shì sānjiǎoxíng",
           "english": "This is a triangle",
-          "audio": "zhe-shi-sanjiaoxing.mp3"
+          "audio": "zhe-shi-sanjiaoxing.mp3",
+		  "image": "t1w9_11.jpg"
         },
         {
           "chinese": "这是圆形",
           "pinyin": "zhè shì yuánxíng",
           "english": "This is a circle",
-          "audio": "zhe-shi-yuanxing.mp3"
+          "audio": "zhe-shi-yuanxing.mp3",
+		  "image": "t1w9_12.jpg"
         }
       ]
     },
