@@ -269,25 +269,29 @@
           "chinese": "五个小朋友",
           "pinyin": "wǔ gè xiǎo péngyǒu",
           "english": "Five little children",
-          "audio": "wu-ge-xiao-pengyou.mp3"
+          "audio": "wu-ge-xiao-pengyou.mp3",
+		  "image": "t2w3_1.jpg"
         },
         {
           "chinese": "星期六不上学",
           "pinyin": "xīngqīliù bú shàngxué",
           "english": "No school on Saturday",
-          "audio": "xingqiliu-bu-shangxue.mp3"
+          "audio": "xingqiliu-bu-shangxue.mp3",
+		  "image": "t2w3_2.jpg"
         },
         {
           "chinese": "吃了一大口",
           "pinyin": "chī le yí dà kǒu",
           "english": "Took a big bite",
-          "audio": "chi-le-yi-da-kou.mp3"
+          "audio": "chi-le-yi-da-kou.mp3",
+		  "image": "t2w3_3.jpg"
         },
         {
           "chinese": "没有人在中间",
           "pinyin": "méi yǒu rén zài zhōngjiān",
           "english": "No one is in the middle",
-          "audio": "mei-you-ren-zai-zhongjian.mp3"
+          "audio": "mei-you-ren-zai-zhongjian.mp3",
+		  "image": "t2w3_4.jpg"
         }
       ]
     },
@@ -299,19 +303,22 @@
           "chinese": "天空小小的，太阳大大的",
           "pinyin": "tiānkōng xiǎo xiǎo de, tàiyáng dà dà de",
           "english": "The sky is small, the sun is big",
-          "audio": "tiankong-xiao-xiao-de-taiyang-da-da-de.mp3"
+          "audio": "tiankong-xiao-xiao-de-taiyang-da-da-de.mp3",
+		  "image": "t2w4_1.jpg"
         },
         {
           "chinese": "太阳小小的，星星大大的",
           "pinyin": "tàiyáng xiǎo xiǎo de, xīngxing dà dà de",
           "english": "The sun is small, the stars are big",
-          "audio": "taiyang-xiao-xiao-de-xingxing-da-da-de.mp3"
+          "audio": "taiyang-xiao-xiao-de-xingxing-da-da-de.mp3",
+		  "image": "t2w4_2.jpg"
         },
         {
           "chinese": "我小小的，爸爸大大的",
           "pinyin": "wǒ xiǎo xiǎo de, bàba dà dà de",
           "english": "I am small, dad is big",
-          "audio": "wo-xiao-xiao-de-baba-da-da-de.mp3"
+          "audio": "wo-xiao-xiao-de-baba-da-da-de.mp3",
+		  "image": "t2w4_3.jpg"
         }
       ]
     },
@@ -323,31 +330,36 @@
           "chinese": "我在山上看日出",
           "pinyin": "wǒ zài shān shàng kàn rìchū",
           "english": "I watch the sunrise from the mountain",
-          "audio": "wo-zai-shan-shang-kan-richu.mp3"
+          "audio": "wo-zai-shan-shang-kan-richu.mp3",
+		  "image": "t2w5_1.jpg"
         },
         {
           "chinese": "天上有个月亮",
           "pinyin": "tiān shàng yǒu ge yuèliang",
           "english": "There is a moon in the sky",
-          "audio": "tian-shang-you-ge-yueliang.mp3"
+          "audio": "tian-shang-you-ge-yueliang.mp3",
+		  "image": "t2w5_2.jpg"
         },
         {
           "chinese": "天上下雨了",
           "pinyin": "tiān shàng xià yǔ le",
           "english": "It is raining from the sky",
-          "audio": "tian-shang-xia-yu-le.mp3"
+          "audio": "tian-shang-xia-yu-le.mp3",
+		  "image": "t2w5_3.jpg"
         },
         {
           "chinese": "这片美丽的土地",
           "pinyin": "zhè piàn měilì de tǔdì",
           "english": "This beautiful land",
-          "audio": "zhe-pian-meili-de-tudi.mp3"
+          "audio": "zhe-pian-meili-de-tudi.mp3",
+		  "image": "t2w5_4.jpg"
         },
         {
           "chinese": "我爱问妈妈",
           "pinyin": "wǒ ài wèn māma",
           "english": "I love to ask mom questions",
-          "audio": "wo-ai-wen-mama.mp3"
+          "audio": "wo-ai-wen-mama.mp3",
+		  "image": "t2w5_5.jpg"
         }
       ]
     },
@@ -359,19 +371,22 @@
           "chinese": "一什么一？一人一",
           "pinyin": "yī shénme yī? yī rén yī",
           "english": "One what one? One person one",
-          "audio": "yi-shenme-yi-yi-ren-yi.mp3"
+          "audio": "yi-shenme-yi-yi-ren-yi.mp3",
+		  "image": "t2w6_1.jpg"
         },
         {
           "chinese": "二什么二？二小兔二",
           "pinyin": "èr shénme èr? èr xiǎo tù èr",
           "english": "Two what two? Two little rabbits two",
-          "audio": "er-shenme-er-er-xiao-tu-er.mp3"
+          "audio": "er-shenme-er-er-xiao-tu-er.mp3",
+		  "image": "t2w6_2.jpg"
         },
         {
           "chinese": "三什么三？三大山三",
           "pinyin": "sān shénme sān? sān dà shān sān",
           "english": "Three what three? Three big mountains three",
-          "audio": "san-shenme-san-san-da-shan-san.mp3"
+          "audio": "san-shenme-san-san-da-shan-san.mp3",
+		  "image": "t2w6_3.jpg"
         }
       ]
     },
