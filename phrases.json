@@ -459,7 +459,8 @@
           "chinese": "我有十根手指",
           "pinyin": "wǒ yǒu shí gēn shǒuzhǐ",
           "english": "I have ten fingers",
-          "audio": "wo-you-shi-gen-shouzhi.mp3"
+          "audio": "wo-you-shi-gen-shouzhi.mp3",
+		  "image": "t2w9_1.jpg"
         }
       ]
     },
@@ -471,7 +472,8 @@
           "chinese": "山上有一只大山羊",
           "pinyin": "shān shàng yǒu yì zhī dà shānyáng",
           "english": "There is a big goat on the mountain",
-          "audio": "shan-shang-you-yi-zhi-da-shanyang.mp3"
+          "audio": "shan-shang-you-yi-zhi-da-shanyang.mp3",
+		  "image": "t2w10_1.jpg"
         }
       ]
     },
@@ -483,19 +485,22 @@
 		  "chinese": "三只小羊上山。",
 		  "pinyin": "sān zhī xiǎo yáng shàng shān",
 		  "english": "Three little sheep go up the mountain",
-		  "audio": "san-zhi-xiao-yang-shang-shan.mp3"
+		  "audio": "san-zhi-xiao-yang-shang-shan.mp3",
+		  "image": "t3w1_1.jpg"
 		},
 		{
 		  "chinese": "山上有一头大水牛。",
 		  "pinyin": "shān shàng yǒu yī tóu dà shuǐniú",
 		  "english": "There is a big water buffalo on the mountain",
-		  "audio": "shan-shang-you-yi-tou-da-shuiniu.mp3"
+		  "audio": "shan-shang-you-yi-tou-da-shuiniu.mp3",
+		  "image": "t3w1_2.jpg"
 		},
 		{
 		  "chinese": "一座大火山。",
 		  "pinyin": "yī zuò dà huǒshān",
 		  "english": "A big volcano",
-		  "audio": "yi-zuo-da-huoshan.mp3"
+		  "audio": "yi-zuo-da-huoshan.mp3",
+		  "image": "t3w1_3.jpg"
 		}
 	  ]
 	},
@@ -507,25 +512,29 @@
 		  "chinese": "我爱笑，我爱跳。",
 		  "pinyin": "wǒ ài xiào, wǒ ài tiào",
 		  "english": "I love to laugh, I love to jump",
-		  "audio": "wo-ai-xiao-wo-ai-tiao.mp3"
+		  "audio": "wo-ai-xiao-wo-ai-tiao.mp3",
+		  "image": "t3w2_1.jpg"
 		},
 		{
 		  "chinese": "我上去了，我下来了。",
 		  "pinyin": "wǒ shàng qù le, wǒ xià lái le",
 		  "english": "I went up, I came down",
-		  "audio": "wo-shang-qu-le-wo-xia-lai-le.mp3"
+		  "audio": "wo-shang-qu-le-wo-xia-lai-le.mp3",
+		  "image": "t3w2_2.jpg"
 		},
 		{
 		  "chinese": "我是小马，跑跑跑。",
 		  "pinyin": "wǒ shì xiǎo mǎ, pǎo pǎo pǎo",
 		  "english": "I am a little horse, run run run",
-		  "audio": "wo-shi-xiao-ma-pao-pao-pao.mp3"
+		  "audio": "wo-shi-xiao-ma-pao-pao-pao.mp3",
+		  "image": "t3w2_3.jpg"
 		},
 		{
 		  "chinese": "我的快乐少不了。",
 		  "pinyin": "wǒ de kuàilè shǎo bù liǎo",
 		  "english": "My happiness cannot be without it",
-		  "audio": "wo-de-kuaile-shao-bu-liao.mp3"
+		  "audio": "wo-de-kuaile-shao-bu-liao.mp3",
+		  "image": "t3w2_4.jpg"
 		}
 	  ]
 	},
