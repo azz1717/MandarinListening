@@ -8,25 +8,39 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Mandarin Phrase Player</h1>
-    <div id="week-info"></div>
-    <div id="phrase-buttons" class="grid"></div>
-    <div class="controls">
-      <button id="prev-week">Prev</button>
-      <button id="next-week">Next</button>
+  <div id="app-container">
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+      <h2>Select Week</h2>
+      <div id="term-week-panel"></div>
+    </div>
+
+    <!-- Main content -->
+    <div id="main-content">
+      <div class="container">
+        <h1>Mandarin Phrase Player</h1>
+        <div id="week-info"></div>
+        <div id="phrase-buttons" class="grid"></div>
+        <div class="controls">
+          <button id="prev-week">Prev</button>
+          <button id="next-week">Next</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Modal -->
+  <div id="info-modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="close-modal" class="close">&times;</span>
+      <p id="modal-pinyin"></p>
+      <p id="modal-english"></p>
     </div>
   </div>
 
-  <div id="info-modal" class="modal hidden">
-	  <div class="modal-content">
-		<span id="close-modal" class="close">&times;</span>
-		<p id="modal-pinyin"></p>
-		<p id="modal-english"></p>
-	  </div>
-  </div>
-
-
   <script src="script.js"></script>
 </body>
+
 </html>

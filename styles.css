@@ -146,3 +146,46 @@ h1 {
   font-size: 1.2rem;
   cursor: pointer;
 }
+
+/* Sidebar layout */
+#app-container {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+}
+
+/* Sidebar container */
+#sidebar {
+  width: 260px;
+  background: #f9f9f9;
+  border-right: 1px solid #ddd;
+  padding: 12px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+#sidebar h2 {
+  margin: 0 0 8px 0;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #333;
+}
+
+.week-item {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+}
+
+.week-item input[type="radio"] {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+#main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
