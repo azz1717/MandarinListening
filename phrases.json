@@ -132,55 +132,64 @@
           "chinese": "我看到黑色的猫",
           "pinyin": "wǒ kàndào hēisè de māo",
           "english": "I see a black cat",
-          "audio": "wo-kandao-heise-de-mao.mp3"
+          "audio": "wo-kandao-heise-de-mao.mp3",
+		  "image": "t1w10_1.jpg"
         },
         {
           "chinese": "我看到棕色的马",
           "pinyin": "wǒ kàndào zōngsè de mǎ",
           "english": "I see a brown horse",
-          "audio": "wo-kandao-zongse-de-ma.mp3"
+          "audio": "wo-kandao-zongse-de-ma.mp3",
+		  "image": "t1w10_2.jpg"
         },
         {
           "chinese": "我看到红色的牛",
           "pinyin": "wǒ kàndào hóngsè de niú",
           "english": "I see a red cow",
-          "audio": "wo-kandao-hongse-de-niu.mp3"
+          "audio": "wo-kandao-hongse-de-niu.mp3",
+		  "image": "t1w10_3.jpg"
         },
         {
           "chinese": "我看到绿色的鸭子",
           "pinyin": "wǒ kàndào lǜsè de yāzi",
           "english": "I see a green duck",
-          "audio": "wo-kandao-lvse-de-yazi.mp3"
+          "audio": "wo-kandao-lvse-de-yazi.mp3",
+		  "image": "t1w10_4.jpg"
         },
         {
           "chinese": "我看到粉色的猪",
           "pinyin": "wǒ kàndào fěnsè de zhū",
           "english": "I see a pink pig",
-          "audio": "wo-kandao-fense-de-zhu.mp3"
+          "audio": "wo-kandao-fense-de-zhu.mp3",
+		  "image": "t1w10_5.jpg"
         },
         {
           "chinese": "我看到黄色的狗",
           "pinyin": "wǒ kàndào huángsè de gǒu",
           "english": "I see a yellow dog",
-          "audio": "wo-kandao-huangse-de-gou.mp3"
+          "audio": "wo-kandao-huangse-de-gou.mp3",
+		  "image": "t1w10_6.jpg"
         },
         {
           "chinese": "我看到一个气球",
           "pinyin": "wǒ kàndào yí gè qìqiú",
           "english": "I see a balloon",
-          "audio": "wo-kandao-yi-ge-qiqiu.mp3"
+          "audio": "wo-kandao-yi-ge-qiqiu.mp3",
+		  "image": "t1w10_7.jpg"
         },
         {
           "chinese": "我看到二个人",
           "pinyin": "wǒ kàndào èr gè rén",
           "english": "I see two people",
-          "audio": "wo-kandao-er-ge-ren.mp3"
+          "audio": "wo-kandao-er-ge-ren.mp3",
+		  "image": "t1w10_8.jpg"
         },
         {
           "chinese": "我看到三座大山",
           "pinyin": "wǒ kàndào sān zuò dàshān",
           "english": "I see three big mountains",
-          "audio": "wo-kandao-san-zuo-dashan.mp3"
+          "audio": "wo-kandao-san-zuo-dashan.mp3",
+		  "image": "t1w10_9.jpg"
         }
       ]
     },
