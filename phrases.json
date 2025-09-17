@@ -730,8 +730,123 @@
 		  "image": "t3w8-1_2.jpg"
 		}
 	  ]
+	},
+	{
+	  "term": 3,
+	  "week": 8.2,
+	  "phrases": [
+		{
+		  "image": "redbird.jpg"
+		},
+		{
+		  "chinese": "红色的鸟，红色的鸟，你在看什么？",
+		  "pinyin": "hóngsè de niǎo, hóngsè de niǎo, nǐ zài kàn shénme",
+		  "english": "Red bird, red bird, what are you looking at?",
+		  "audio": "hongse-de-niao-hongse-de-niao-ni-zai-kan-shenme.mp3",
+		  "image": "t3w8-2_1.jpg"
+		},
+		{
+		  "chinese": "我看到一只黄色的鸭子在看我。",
+		  "pinyin": "wǒ kàndào yì zhī huángsè de yāzi zài kàn wǒ",
+		  "english": "I see a yellow duck looking at me",
+		  "audio": "wo-kandao-yi-zhi-huangse-de-yazi-zai-kan-wo.mp3",
+		  "image": "t3w8-2_2.jpg"
+		}
+	  ]
+	},
+	{
+	  "term": 3,
+	  "week": 8.3,
+	  "phrases": [
+		{
+		  "image": "yellowduck.jpg"
+		},
+		{
+		  "chinese": "黄色的鸭子，黄色的鸭子，你在看什么？",
+		  "pinyin": "huángsè de yāzi, huángsè de yāzi, nǐ zài kàn shénme",
+		  "english": "Yellow duck, yellow duck, what are you looking at?",
+		  "audio": "huangse-de-yazi-huangse-de-yazi-ni-zai-kan-shenme.mp3",
+		  "image": "t3w8-3_1.jpg"
+		},
+		{
+		  "chinese": "我看到一匹蓝色的马在看我。",
+		  "pinyin": "wǒ kàndào yì pǐ lánsè de mǎ zài kàn wǒ",
+		  "english": "I see a blue horse looking at me",
+		  "audio": "wo-kandao-yi-pi-lanse-de-ma-zai-kan-wo.mp3",
+		  "image": "t3w8-3_2.jpg"
+		}
+	  ]
+	},
+	{
+	  "term": 3,
+	  "week": 8.4,
+	  "phrases": [
+		{
+		  "image": "bluehorse.jpg"
+		},
+		{
+		  "chinese": "蓝色的马，蓝色的马，你在看什么？",
+		  "pinyin": "lánsè de mǎ, lánsè de mǎ, nǐ zài kàn shénme",
+		  "english": "Blue horse, blue horse, what are you looking at?",
+		  "audio": "lanse-de-ma-lanse-de-ma-ni-zai-kan-shenme.mp3",
+		  "image": "t3w8-4_1.jpg"
+		},
+		{
+		  "chinese": "我看到一只绿色的青蛙在看我。",
+		  "pinyin": "wǒ kàndào yì zhī lǜsè de qīngwā zài kàn wǒ",
+		  "english": "I see a green frog looking at me",
+		  "audio": "wo-kandao-yi-zhi-lvse-de-qingwa-zai-kan-wo.mp3",
+		  "image": "t3w8-4_2.jpg"
+		}
+	  ]
+	},
+	{
+	  "term": 3,
+	  "week": 8.5,
+	  "phrases": [
+		{
+		  "image": "greenfrog.jpg"
+		},
+		{
+		  "chinese": "绿色的青蛙，绿色的青蛙，你在看什么？",
+		  "pinyin": "lǜsè de qīngwā, lǜsè de qīngwā, nǐ zài kàn shénme",
+		  "english": "Green frog, green frog, what are you looking at?",
+		  "audio": "lvse-de-qingwa-lvse-de-qingwa-ni-zai-kan-shenme.mp3",
+		  "image": "t3w8-5_1.jpg"
+		},
+		{
+		  "chinese": "我看到一只紫色的猫在看我。",
+		  "pinyin": "wǒ kàndào yì zhī zǐsè de māo zài kàn wǒ",
+		  "english": "I see a purple cat looking at me",
+		  "audio": "wo-kandao-yi-zhi-zise-de-mao-zai-kan-wo.mp3",
+		  "image": "t3w8-5_2.jpg"
+		}
+	  ]
+	},
+	{
+	  "term": 3,
+	  "week": 8.6,
+	  "phrases": [
+		{
+		  "image": "purplecat.jpg"
+		},
+		{
+		  "chinese": "紫色的猫，紫色的猫，你在看什么？",
+		  "pinyin": "zǐsè de māo, zǐsè de māo, nǐ zài kàn shénme",
+		  "english": "Purple cat, purple cat, what are you looking at?",
+		  "audio": "zise-de-mao-zise-de-mao-ni-zai-kan-shenme.mp3",
+		  "image": "t3w8-6_1.jpg"
+		},
+		{
+		  "chinese": "我看到一只白色的狗在看我。",
+		  "pinyin": "wǒ kàndào yì zhī báisè de gǒu zài kàn wǒ",
+		  "english": "I see a white dog looking at me",
+		  "audio": "wo-kandao-yi-zhi-baise-de-gou-zai-kan-wo.mp3",
+		  "image": "t3w8-6_2.jpg"
+		}
+	  ]
 	}
-
+	
   ]
 }
 
