@@ -605,7 +605,133 @@
 		  "image": "t3w4_4.jpg"
 		}
 	  ]
+	},
+	{
+	  "term": 3,
+	  "week": 5,
+	  "phrases": [
+		{
+		  "chinese": "我白天上学。",
+		  "pinyin": "wǒ báitiān shàngxué",
+		  "english": "I go to school during the day",
+		  "audio": "wo-baitian-shangxue.mp3",
+		  "image": "t3w5_1.jpg"
+		},
+		{
+		  "chinese": "天上有很多白云。",
+		  "pinyin": "tiān shàng yǒu hěn duō bái yún",
+		  "english": "There are many white clouds in the sky",
+		  "audio": "tian-shang-you-hen-duo-bai-yun.mp3",
+		  "image": "t3w5_2.jpg"
+		},
+		{
+		  "chinese": "又一个人来了。",
+		  "pinyin": "yòu yí gè rén lái le",
+		  "english": "Another person came",
+		  "audio": "you-yi-ge-ren-lai-le.mp3",
+		  "image": "t3w5_3.jpg"
+		},
+		{
+		  "chinese": "小马在山上吃草。",
+		  "pinyin": "xiǎo mǎ zài shān shàng chī cǎo",
+		  "english": "The little horse is eating grass on the mountain",
+		  "audio": "xiao-ma-zai-shan-shang-chi-cao.mp3",
+		  "image": "t3w5_4.jpg"
+		}
+	  ]
+	},
+	{
+	  "term": 3,
+	  "week": 6,
+	  "phrases": [
+		{
+		  "chinese": "太阳爱白云，白云高兴地跑，跑，跑。",
+		  "pinyin": "tàiyáng ài báiyún, báiyún gāoxìng de pǎo, pǎo, pǎo",
+		  "english": "The sun loves white clouds; the clouds happily run, run, run",
+		  "audio": "taiyang-ai-baiyun-baiyun-gaoxing-de-pao-pao-pao.mp3",
+		  "image": "t3w6_1.jpg"
+		},
+		{
+		  "chinese": "月亮爱星星，星星快乐地跳，跳，跳。",
+		  "pinyin": "yuèliàng ài xīngxing, xīngxing kuàilè de tiào, tiào, tiào",
+		  "english": "The moon loves the stars; the stars joyfully jump, jump, jump",
+		  "audio": "yueliang-ai-xingxing-xingxing-kuaile-de-tiao-tiao-tiao.mp3",
+		  "image": "t3w6_2.jpg"
+		},
+		{
+		  "chinese": "天空爱小鸟，小鸟飞，飞，飞。",
+		  "pinyin": "tiānkōng ài xiǎo niǎo, xiǎo niǎo fēi, fēi, fēi",
+		  "english": "The sky loves little birds; the little birds fly, fly, fly",
+		  "audio": "tiankong-ai-xiao-niao-xiao-niao-fei-fei-fei.mp3",
+		  "image": "t3w6_3.jpg"
+		},
+		{
+		  "chinese": "大地爱小草，小草笑，笑，笑。",
+		  "pinyin": "dàdì ài xiǎo cǎo, xiǎo cǎo xiào, xiào, xiào",
+		  "english": "The earth loves little grass; the little grass laughs, laughs, laughs",
+		  "audio": "dadi-ai-xiao-cao-xiao-cao-xiao-xiao-xiao.mp3",
+		  "image": "t3w6_4.jpg"
+		}
+	  ]
+	},
+	{
+	  "term": 3,
+	  "week": 7,
+	  "phrases": [
+		{
+		  "chinese": "我不会开车。",
+		  "pinyin": "wǒ bú huì kāichē",
+		  "english": "I cannot drive",
+		  "audio": "wo-bu-hui-kaiche.mp3",
+		  "image": "t3w7_1.jpg"
+		},
+		{
+		  "chinese": "山上有一片大农田。",
+		  "pinyin": "shān shàng yǒu yí piàn dà nóngtián",
+		  "english": "There is a large farm field on the mountain",
+		  "audio": "shan-shang-you-yi-pian-da-nongtian.mp3",
+		  "image": "t3w7_2.jpg"
+		},
+		{
+		  "chinese": "你有几个好朋友？",
+		  "pinyin": "nǐ yǒu jǐ gè hǎo péngyǒu",
+		  "english": "How many good friends do you have?",
+		  "audio": "ni-you-ji-ge-hao-pengyou.mp3",
+		  "image": "t3w7_3.jpg"
+		},
+		{
+		  "chinese": "我上去了。",
+		  "pinyin": "wǒ shàngqù le",
+		  "english": "I went up",
+		  "audio": "wo-shangqu-le.mp3",
+		  "image": "t3w7_4.jpg"
+		}
+	  ]
+	},
+	{
+	  "term": 3,
+	  "week": 8.1,
+	  "phrases": [
+	    {
+		"image": "brownbear.jpg"
+	    },
+		{
+		  "chinese": "棕色的熊，棕色的熊，你在看什么？",
+		  "pinyin": "zōngsè de xióng, zōngsè de xióng, nǐ zài kàn shénme",
+		  "english": "Brown bear, brown bear, what are you looking at?",
+		  "audio": "zongse-de-xiong-zongse-de-xiong-ni-zai-kan-shenme.mp3",
+		  "image": "t3w8.1_1.jpg"
+		},
+		{
+		  "chinese": "我看到一只红色的鸟在看我。",
+		  "pinyin": "wǒ kàndào yì zhī hóngsè de niǎo zài kàn wǒ",
+		  "english": "I see a red bird looking at me",
+		  "audio": "wo-kandao-yi-zhi-hongse-de-niao-zai-kan-wo.mp3",
+		  "image": "t3w8.2_2.jpg"
+		}
+	  ]
 	}
+
   ]
 }
 
