@@ -845,8 +845,139 @@
 		  "image": "t3w8-6_2.jpg"
 		}
 	  ]
-	}
-	
+	},
+	{
+	  "term": 3,
+	  "week": 9,
+	  "phrases": [
+		{
+		  "chinese": "一家人在看节目。",
+		  "pinyin": "yī jiā rén zài kàn jiémù",
+		  "english": "The family is watching a show.",
+		  "audio": "yi-jia-ren-zai-kan-jiemu.mp3",
+		  "image": "t3w9_1.jpg"
+		},
+		{
+		  "chinese": "山上没有人。",
+		  "pinyin": "shān shàng méi yǒu rén",
+		  "english": "There is no one on the mountain.",
+		  "audio": "shan-shang-meiyou-ren.mp3",
+		  "image": "t3w9_2.jpg"
+		},
+		{
+		  "chinese": "我看见一只鸟在飞。",
+		  "pinyin": "wǒ kànjiàn yī zhī niǎo zài fēi",
+		  "english": "I saw a bird flying.",
+		  "audio": "wo-kanjian-yi-zhi-niao-zai-fei.mp3",
+		  "image": "t3w9_3.jpg"
+		},
+		{
+		  "chinese": "我去开门。",
+		  "pinyin": "wǒ qù kāi mén",
+		  "english": "I’ll go open the door.",
+		  "audio": "wo-qu-kaimen.mp3",
+		  "image": "t3w9_4.jpg"
+		}
+	  ]
+	},
+	{
+	  "term": 3,
+	  "week": 10.1,
+	  "phrases": [
+		{ "image": "whitedog.jpg" },
+		{
+		  "chinese": "白色的狗，白色的狗，你在看什么？",
+		  "pinyin": "báisè de gǒu, báisè de gǒu, nǐ zài kàn shénme",
+		  "english": "White dog, white dog, what are you looking at?",
+		  "audio": "baise-de-gou-baise-de-gou-ni-zai-kan-shenme.mp3",
+		  "image": "t3w10-1_1.jpg"
+		},
+		{
+		  "chinese": "我看到一只黑色的羊在看我。",
+		  "pinyin": "wǒ kàndào yì zhī hēisè de yáng zài kàn wǒ",
+		  "english": "I see a black sheep looking at me.",
+		  "audio": "wo-kandao-yi-zhi-heise-de-yang-zai-kan-wo.mp3",
+		  "image": "t3w10-1_2.jpg"
+		}
+	  ]
+	},
+	{
+	  "term": 3,
+	  "week": 10.2,
+	  "phrases": [
+		{ "image": "blacksheep.jpg" },
+		{
+		  "chinese": "黑色的羊，黑色的羊，你在看什么？",
+		  "pinyin": "hēisè de yáng, hēisè de yáng, nǐ zài kàn shénme",
+		  "english": "Black sheep, black sheep, what are you looking at?",
+		  "audio": "heise-de-yang-heise-de-yang-ni-zai-kan-shenme.mp3",
+		  "image": "t3w10-2_1.jpg"
+		},
+		{
+		  "chinese": "我看到一只金色的鱼在看我。",
+		  "pinyin": "wǒ kàndào yì zhī jīnsè de yú zài kàn wǒ",
+		  "english": "I see a gold fish looking at me.",
+		  "audio": "wo-kandao-yi-zhi-jinse-de-yu-zai-kan-wo.mp3",
+		  "image": "t3w10-2_2.jpg"
+		}
+	  ]
+	},
+	{
+	  "term": 3,
+	  "week": 10.3,
+	  "phrases": [
+		{ "image": "goldfish.jpg" },
+		{
+		  "chinese": "金色的鱼，金色的鱼，你在看什么？",
+		  "pinyin": "jīnsè de yú, jīnsè de yú, nǐ zài kàn shénme",
+		  "english": "Gold fish, gold fish, what are you looking at?",
+		  "audio": "jinse-de-yu-jinse-de-yu-ni-zai-kan-shenme.mp3",
+		  "image": "t3w10-3_1.jpg"
+		},
+		{
+		  "chinese": "我看到一个老师在看我。",
+		  "pinyin": "wǒ kàndào yí gè lǎoshī zài kàn wǒ",
+		  "english": "I see a teacher looking at me.",
+		  "audio": "wo-kandao-yi-ge-laoshi-zai-kan-wo.mp3",
+		  "image": "t3w10-3_2.jpg"
+		}
+	  ]
+	},
+	{
+	  "term": 3,
+	  "week": 10.4,
+	  "phrases": [
+		{ "image": "teacher.jpg" },
+		{
+		  "chinese": "老师，老师，你在看什么？",
+		  "pinyin": "lǎoshī, lǎoshī, nǐ zài kàn shénme",
+		  "english": "Teacher, teacher, what are you looking at?",
+		  "audio": "laoshi-laoshi-ni-zai-kan-shenme.mp3",
+		  "image": "t3w10-4_1.jpg"
+		},
+		{
+		  "chinese": "我看到一群孩子在看我。",
+		  "pinyin": "wǒ kàndào yì qún háizi zài kàn wǒ",
+		  "english": "I see a group of children looking at me.",
+		  "audio": "wo-kandao-yi-qun-haizi-zai-kan-wo.mp3",
+		  "image": "t3w10-4_2.jpg"
+		}
+	  ]
+	},
+	{
+	  "term": 3,
+	  "week": 10.5,
+	  "phrases": [
+		{ "image": "children.jpg" },
+		{
+		  "chinese": "孩子们，孩子们，你们在看什么？",
+		  "pinyin": "háizimen, háizimen, nǐmen zài kàn shénme",
+		  "english": "Children, children, what are you looking at?",
+		  "audio": "haizimen-haizimen-nimen-zai-kan-shenme.mp3",
+		  "image": "t3w10-5_1.jpg"
+		}
+	  ]
+	}	
   ]
 }
 
