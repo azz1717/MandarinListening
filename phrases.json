@@ -977,7 +977,96 @@
 		  "image": "t3w10-5_1.jpg"
 		}
 	  ]
-	}	
+	},
+	{
+	  "term": 4,
+	  "week": 1,
+	  "phrases": [
+		{
+		  "chinese": "我们又见面了。",
+		  "pinyin": "wǒmen yòu jiànmiàn le",
+		  "english": "We met again.",
+		  "audio": "women-you-jianmian-le.mp3",
+		  "image": "t4w1_1.jpg"
+		},
+		{
+		  "chinese": "她是一个女孩子。",
+		  "pinyin": "tā shì yī gè nǚ háizi",
+		  "english": "She is a girl.",
+		  "audio": "ta-shi-yi-ge-nv-haizi.mp3",
+		  "image": "t4w1_2.jpg"
+		},
+		{
+		  "chinese": "他是一个男孩子。",
+		  "pinyin": "tā shì yī gè nán háizi",
+		  "english": "He is a boy.",
+		  "audio": "ta-shi-yi-ge-nan-haizi.mp3",
+		  "image": "t4w1_3.jpg"
+		},
+		{
+		  "chinese": "妈妈回来了。",
+		  "pinyin": "māma huílai le",
+		  "english": "Mom came back.",
+		  "audio": "mama-huilai-le.mp3",
+		  "image": "t4w1_4.jpg"
+		},
+		{
+		  "chinese": "一只小鸟飞出来了。",
+		  "pinyin": "yī zhī xiǎo niǎo fēi chūlái le",
+		  "english": "A little bird flew out.",
+		  "audio": "yi-zhi-xiao-niao-fei-chulai-le.mp3",
+		  "image": "t4w1_5.jpg"
+		},
+		{
+		  "chinese": "小狗出来了。",
+		  "pinyin": "xiǎo gǒu chūlái le",
+		  "english": "The puppy came out.",
+		  "audio": "xiao-gou-chulai-le.mp3",
+		  "image": "t4w1_6.jpg"
+		}
+	  ]
+	},
+	{
+	  "term": 4,
+	  "week": 2,
+	  "phrases": [
+		{
+		  "chinese": "小兔跳上跳下。",
+		  "pinyin": "xiǎo tù tiào shàng tiào xià",
+		  "english": "The little rabbit jumps up and down.",
+		  "audio": "xiao-tu-tiao-shang-tiao-xia.mp3",
+		  "image": "t4w2_1.jpg"
+		},
+		{
+		  "chinese": "小鸟高高飞。",
+		  "pinyin": "xiǎo niǎo gāo gāo fēi",
+		  "english": "The little bird flies high.",
+		  "audio": "xiao-niao-gao-gao-fei.mp3",
+		  "image": "t4w2_2.jpg"
+		},
+		{
+		  "chinese": "大马快快跑。",
+		  "pinyin": "dà mǎ kuài kuài pǎo",
+		  "english": "The big horse runs fast.",
+		  "audio": "da-ma-kuai-kuai-pao.mp3",
+		  "image": "t4w2_3.jpg"
+		},
+		{
+		  "chinese": "蝴蝶上飞飞，下飞飞。",
+		  "pinyin": "húdié shàng fēi fēi, xià fēi fēi",
+		  "english": "The butterfly flies up and down.",
+		  "audio": "hudie-shang-feifei-xia-feifei.mp3",
+		  "image": "t4w2_4.jpg"
+		},
+		{
+		  "chinese": "我不是毛毛虫了，我好快乐。",
+		  "pinyin": "wǒ bú shì máomaochóng le, wǒ hǎo kuàilè",
+		  "english": "I’m not a caterpillar anymore; I’m so happy.",
+		  "audio": "wo-bushi-maomaochong-le-wo-hao-kuaile.mp3",
+		  "image": "t4w2_5.jpg"
+		}
+	  ]
+	}
   ]
 }
 
