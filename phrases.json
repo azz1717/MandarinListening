@@ -1066,6 +1066,102 @@
 		  "image": "t4w2_5.jpg"
 		}
 	  ]
+	},
+	{
+	  "term": 4,
+	  "week": 3,
+	  "phrases": [
+		{
+		  "chinese": "水里有很多小鱼。",
+		  "pinyin": "shuǐ lǐ yǒu hěn duō xiǎo yú",
+		  "english": "There are many little fish in the water.",
+		  "audio": "shui-li-you-hen-duo-xiao-yu.mp3",
+		  "image": "t4w3_1.jpg"
+		},
+		{
+		  "chinese": "山上有多少只羊？",
+		  "pinyin": "shān shàng yǒu duō shǎo zhī yáng",
+		  "english": "How many sheep are on the mountain?",
+		  "audio": "shan-shang-you-duo-shao-zhi-yang.mp3",
+		  "image": "t4w3_2.jpg"
+		},
+		{
+		  "chinese": "早上好。",
+		  "pinyin": "zǎo shang hǎo",
+		  "english": "Good morning.",
+		  "audio": "zao-shang-hao.mp3",
+		  "image": "t4w3_3.jpg"
+		},
+		{
+		  "chinese": "小鸟吃虫子。",
+		  "pinyin": "xiǎo niǎo chī chóng zi",
+		  "english": "The little bird eats worms.",
+		  "audio": "xiao-niao-chi-chong-zi.mp3",
+		  "image": "t4w3_4.jpg"
+		},
+		{
+		  "chinese": "我也喜欢动物。",
+		  "pinyin": "wǒ yě xǐ huan dòng wù",
+		  "english": "I also like animals.",
+		  "audio": "wo-ye-xihuan-dong-wu.mp3",
+		  "image": "t4w3_5.jpg"
+		},
+		{
+		  "chinese": "家里没有人。",
+		  "pinyin": "jiā lǐ méi yǒu rén",
+		  "english": "There is no one at home.",
+		  "audio": "jia-li-mei-you-ren.mp3",
+		  "image": "t4w3_6.jpg"
+		}
+	  ]
+	},
+	{
+	  "term": 4,
+	  "week": 4,
+	  "phrases": [
+		{
+		  "chinese": "小羊，我看一下好不好？",
+		  "pinyin": "xiǎo yáng, wǒ kàn yī xià hǎo bù hǎo",
+		  "english": "Little lamb, may I take a look?",
+		  "audio": "xiao-yang-wo-kan-yixia-hao-bu-hao.mp3",
+		  "image": "t4w4_1.jpg"
+		},
+		{
+		  "chinese": "小牛快来！去小兔家吃蛋糕。",
+		  "pinyin": "xiǎo niú kuài lái! qù xiǎo tù jiā chī dàng gāo",
+		  "english": "Little calf, come quickly! Let’s go to Little Rabbit’s house to eat cake.",
+		  "audio": "xiao-niu-kuai-lai-qu-xiao-tu-jia-chi-dang-gao.mp3",
+		  "image": "t4w4_2.jpg"
+		},
+		{
+		  "chinese": "小花多好看。",
+		  "pinyin": "xiǎo huā duō hǎo kàn",
+		  "english": "The little flower is so pretty.",
+		  "audio": "xiao-hua-duo-hao-kan.mp3",
+		  "image": "t4w4_3.jpg"
+		},
+		{
+		  "chinese": "生日快乐，小兔！",
+		  "pinyin": "shēng rì kuài lè, xiǎo tù",
+		  "english": "Happy birthday, Little Rabbit!",
+		  "audio": "sheng-ri-kuai-le-xiao-tu.mp3",
+		  "image": "t4w4_4.jpg"
+		},
+		{
+		  "chinese": "好吃的少不了。",
+		  "pinyin": "hǎo chī de shǎo bù liǎo",
+		  "english": "You can’t have a party without delicious food.",
+		  "audio": "hao-chi-de-shao-bu-liao.mp3",
+		  "image": "t4w4_5.jpg"
+		},
+		{
+		  "chinese": "我的蛋糕太小了。",
+		  "pinyin": "wǒ de dàng gāo tài xiǎo le",
+		  "english": "My cake is too small.",
+		  "audio": "wo-de-dang-gao-tai-xiao-le.mp3",
+		  "image": "t4w4_6.jpg"
+		}
+	  ]
 	}
   ]
 }
