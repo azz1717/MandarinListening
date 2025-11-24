@@ -1162,6 +1162,46 @@
 		  "image": "t4w4_6.jpg"
 		}
 	  ]
+	},
+	{
+	  "term": 4,
+	  "week": 5,
+	  "phrases": [
+		{
+		  "chinese": "我们是一家人。",
+		  "pinyin": "wǒ men shì yī jiā rén",
+		  "english": "We are one family.",
+		  "audio": "women-shi-yijia-ren.mp3",
+		  "image": "t4w5_1.jpg"
+		},
+		{
+		  "chinese": "你和我是好朋友。",
+		  "pinyin": "nǐ hé wǒ shì hǎo péng you",
+		  "english": "You and I are good friends.",
+		  "audio": "ni-he-wo-shi-hao-pengyou.mp3",
+		  "image": "t4w5_2.jpg"
+		}
+	  ]
+	},
+	{
+	  "term": 4,
+	  "week": 6,
+	  "phrases": [
+		{
+		  "chinese": "这里有好多人。",
+		  "pinyin": "zhè lǐ yǒu hǎo duō rén",
+		  "english": "There are many people here.",
+		  "audio": "zheli-you-haoduo-ren.mp3",
+		  "image": "t4w6_1.jpg"
+		},
+		{
+		  "chinese": "下雨了。",
+		  "pinyin": "xià yǔ le",
+		  "english": "It’s raining.",
+		  "audio": "xiayu-le.mp3",
+		  "image": "t4w6_2.jpg"
+		}
+	  ]
 	}
   ]
 }
