@@ -157,8 +157,8 @@ function loadAndRenderCurrentWeek() {
     return;
   }
 
-// Scenario B: Fetch the term file for the first time
-  fetch(`data/${termFile}`) // Put back your data/ folder path
+  // Scenario B: Fetch the term file for the first time
+  fetch(`data/${termFile}`
     .then(res => {
       if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
       return res.json();
@@ -178,3 +178,4 @@ function loadAndRenderCurrentWeek() {
     .catch(err => {
       console.error(`Failed to load data for Term ${currentWeekMetadata.term} Week ${weekNumber}`, err);
     });
+} 
