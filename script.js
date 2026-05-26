@@ -130,35 +130,52 @@ week.phrases.forEach((phrase) => {
 }
 
 
+// A cache object to store term data once fetched, preventing duplicate network requests
+const loadedTerms = {};
+
 // load data
-// 1. Fetch the manifest file first
 fetch('index.json')
   .then(res => res.json())
   .then(data => {
-    weeks = data.weeks; // Stores the metadata array containing file paths
+    weeks = data.weeks;
     renderSidebar();
-    loadAndRenderCurrentWeek(); // New function to handle split-file loading
+    loadAndRenderCurrentWeek(); // This will safely fetch and then call renderWeek()
+  })
+  .catch(err => {
+    console.error("Failed to load index.json configuration", err);
   });
 
-// 2. New helper function to handle asynchronous fetching per week
 function loadAndRenderCurrentWeek() {
   const currentWeekMetadata = weeks[currentWeekIndex];
-  
-  // If we already fetched the phrases for this week previously, don't fetch again
-  if (currentWeekMetadata.phrases) {
+  const termFile = currentWeekMetadata.file;
+  const weekNumber = currentWeekMetadata.week;
+
+  // Scenario A: The term file is already loaded in memory
+  if (loadedTerms[termFile]) {
+    weeks[currentWeekIndex].phrases = loadedTerms[termFile].weeks[weekNumber].phrases;
     renderWeek();
     return;
   }
 
-  // Fetch the specific week's file dynamically
-  fetch(`data/${currentWeekMetadata.file}`)
-    .then(res => res.json())
-    .then(weekData => {
-      // Attach the fetched phrases to our local weeks array cache
-      weeks[currentWeekIndex].phrases = weekData.phrases;
-      renderWeek();
+  // Scenario B: Fetch the term file for the first time
+  fetch(termFile) // Fetches directly from your root directory where termkmip1.json lives
+    .then(res => {
+      if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+      return res.json();
+    })
+    .then(termData => {
+      // Save the entire term data structure to our cache
+      loadedTerms[termFile] = termData;
+      
+      // Safety check: verify the requested week exists in the downloaded data
+      if (termData.weeks && termData.weeks[weekNumber]) {
+        weeks[currentWeekIndex].phrases = termData.weeks[weekNumber].phrases;
+        renderWeek();
+      } else {
+        console.error(`Week ${weekNumber} data missing inside ${termFile}`);
+      }
     })
     .catch(err => {
-      console.error(`Failed to load data for Term ${currentWeekMetadata.term} Week ${currentWeekMetadata.week}`, err);
+      console.error(`Failed to load data for Term ${currentWeekMetadata.term} Week ${weekNumber}`, err);
     });
 }
