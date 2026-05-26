@@ -157,8 +157,8 @@ function loadAndRenderCurrentWeek() {
     return;
   }
 
-  // Scenario B: Fetch the term file for the first time
-  fetch(termFile) // Fetches directly from your root directory where termkmip1.json lives
+// Scenario B: Fetch the term file for the first time
+  fetch(`data/${termFile}`) // Put back your data/ folder path
     .then(res => {
       if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
       return res.json();
@@ -172,10 +172,9 @@ function loadAndRenderCurrentWeek() {
         weeks[currentWeekIndex].phrases = termData.weeks[weekNumber].phrases;
         renderWeek();
       } else {
-        console.error(`Week ${weekNumber} data missing inside ${termFile}`);
+        console.error(`Week ${weekNumber} data missing inside data/${termFile}`);
       }
     })
     .catch(err => {
       console.error(`Failed to load data for Term ${currentWeekMetadata.term} Week ${weekNumber}`, err);
     });
-}
