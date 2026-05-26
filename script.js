@@ -12,7 +12,7 @@ const termWeekPanel = document.getElementById('term-week-panel');
 document.getElementById('prev-week').addEventListener('click', () => {
   if (currentWeekIndex > 0) {
     currentWeekIndex--;
-    renderWeek();
+    loadAndRenderCurrentWeek();
     updateSidebarSelection();
   }
 });
@@ -20,7 +20,7 @@ document.getElementById('prev-week').addEventListener('click', () => {
 document.getElementById('next-week').addEventListener('click', () => {
   if (currentWeekIndex < weeks.length - 1) {
     currentWeekIndex++;
-    renderWeek();
+    loadAndRenderCurrentWeek();
     updateSidebarSelection();
   }
 });
@@ -71,7 +71,7 @@ function renderWeek() {
   weekInfo.textContent = `Term ${week.term} - Week ${week.week}`;
   phraseContainer.innerHTML = '';
 
-week.phrases.forEach((phrase) => {
+  week.phrases.forEach((phrase) => {
     const btn = document.createElement('button');
 
     if (phrase.image) {
@@ -125,21 +125,20 @@ week.phrases.forEach((phrase) => {
     wrapper.appendChild(btn);
     wrapper.appendChild(infoBtn);
     phraseContainer.appendChild(wrapper);
-});
-
+  });
 }
 
 
 // A cache object to store term data once fetched, preventing duplicate network requests
 const loadedTerms = {};
 
-// load data
-fetch('index.json')
+// load data (added cache prevention here too to ensure you always get the latest index.json)
+fetch('index.json', { cache: "no-store" })
   .then(res => res.json())
   .then(data => {
     weeks = data.weeks;
     renderSidebar();
-    loadAndRenderCurrentWeek(); // This will safely fetch and then call renderWeek()
+    loadAndRenderCurrentWeek();
   })
   .catch(err => {
     console.error("Failed to load index.json configuration", err);
@@ -158,7 +157,7 @@ function loadAndRenderCurrentWeek() {
   }
 
   // Scenario B: Fetch the term file for the first time
-  fetch(`data/${termFile}`
+  fetch(`data/${termFile}`, { cache: "no-store" }) 
     .then(res => {
       if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
       return res.json();
@@ -178,4 +177,4 @@ function loadAndRenderCurrentWeek() {
     .catch(err => {
       console.error(`Failed to load data for Term ${currentWeekMetadata.term} Week ${weekNumber}`, err);
     });
-} 
+}
