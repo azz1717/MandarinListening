@@ -106,17 +106,7 @@ week.phrases.forEach((phrase) => {
     infoBtn.style.cursor = 'pointer';
 
     infoBtn.addEventListener('click', () => {
-      // Start with the default pinyin
-      let pinyinContent = phrase.pinyin;
-      
-      // Check if sandhi exists and is different from the original pinyin
-      if (phrase.sandhi && phrase.sandhi !== phrase.pinyin) {
-        // Append the sandhi in green (added a line break for cleaner formatting)
-        pinyinContent += `<br><span style="color: green;">${phrase.sandhi}</span>`;
-      }
-      
-      // Use innerHTML instead of textContent so the HTML span tag renders properly
-      document.getElementById('modal-pinyin').innerHTML = pinyinContent;
+      document.getElementById('modal-pinyin').textContent = phrase.pinyin;
       document.getElementById('modal-english').textContent = phrase.english;
       modal.classList.remove('hidden');
     });
