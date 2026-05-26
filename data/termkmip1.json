@@ -1,6 +1,6 @@
 {
-"weeks":{
-	"8":{
+  "weeks": {
+    "8": {
       "phrases": [
         {
           "chinese": "我来数一数",
@@ -21,7 +21,7 @@
         {
           "chinese": "十个小朋友玩气球",
           "pinyin": "shí gè xiǎopéngyǒu wán qìqiú",
-          "sandhi": "shí gè xiǎo péngyǒu wán qìqiú",
+          "sandhi": "shí gè xiǎopéngyǒu wán qìqiú",
           "english": "Ten children play with balloons",
           "audio": "shi-ge-xiaopengyou-wan-qiqiu.mp3",
           "image": "t1w8_3.jpg"
@@ -36,7 +36,7 @@
         }
       ]
     },
-    "9":{
+    "9": {
       "phrases": [
         {
           "chinese": "这是我的妈妈",
@@ -136,7 +136,7 @@
         }
       ]
     },
-    "10":{
+    "10": {
       "phrases": [
         {
           "chinese": "我看到黑色的猫",
@@ -188,7 +188,7 @@
         },
         {
           "chinese": "我看到一个气球",
-          "pinyin": "wǒ kàndào yí gè qìqiú",
+          "pinyin": "wǒ kàndào yī gè qìqiú",
           "sandhi": "wǒ kàndào yí gè qìqiú",
           "english": "I see a balloon",
           "audio": "wo-kandao-yi-ge-qiqiu.mp3",
@@ -211,6 +211,6 @@
           "image": "t1w10_9.jpg"
         }
       ]
-	}
-}
+    }
+  }
 }
