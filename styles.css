@@ -128,12 +128,6 @@ h1 {
   color: #222;
 }
 
-.modal-content p:first-of-type {
-  white-space: nowrap;   /* Pinyin never wraps */
-  font-family: 'YourPreferredFontForPinyin', sans-serif;
-  font-size: 1.4rem; /* adjust size */
-  margin-bottom: 0.5rem;
-}
 
 .modal-content p:last-of-type {
   white-space: normal;   /* English can wrap */
@@ -193,6 +187,10 @@ h1 {
   flex-direction: column;
 }
 
-#modal-pinyin {
+#modal-sandhi, #modal-pinyin {
   white-space: nowrap;
+  font-family: 'YourPreferredFontForPinyin', sans-serif;
+  font-size: 1.4rem; 
+  margin-top: 0;
+  margin-bottom: 0.2rem;
 }
