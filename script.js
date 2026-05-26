@@ -46,7 +46,7 @@ function renderSidebar() {
 
     input.addEventListener('change', () => {
       currentWeekIndex = index;
-      renderWeek();
+      loadAndRenderCurrentWeek();
     });
 
     const label = document.createElement('label');
@@ -131,10 +131,34 @@ week.phrases.forEach((phrase) => {
 
 
 // load data
-fetch('phrases.json')
+// 1. Fetch the manifest file first
+fetch('index.json')
   .then(res => res.json())
   .then(data => {
-    weeks = data.weeks;
+    weeks = data.weeks; // Stores the metadata array containing file paths
     renderSidebar();
-    renderWeek();
+    loadAndRenderCurrentWeek(); // New function to handle split-file loading
   });
+
+// 2. New helper function to handle asynchronous fetching per week
+function loadAndRenderCurrentWeek() {
+  const currentWeekMetadata = weeks[currentWeekIndex];
+  
+  // If we already fetched the phrases for this week previously, don't fetch again
+  if (currentWeekMetadata.phrases) {
+    renderWeek();
+    return;
+  }
+
+  // Fetch the specific week's file dynamically
+  fetch(`data/${currentWeekMetadata.file}`)
+    .then(res => res.json())
+    .then(weekData => {
+      // Attach the fetched phrases to our local weeks array cache
+      weeks[currentWeekIndex].phrases = weekData.phrases;
+      renderWeek();
+    })
+    .catch(err => {
+      console.error(`Failed to load data for Term ${currentWeekMetadata.term} Week ${currentWeekMetadata.week}`, err);
+    });
+}

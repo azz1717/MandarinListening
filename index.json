@@ -1,0 +1,13 @@
+{
+  "weeks": [
+    { "term": "kmip1 1", "week": 8, "file": "termkmip1.json" },
+	    { "term": "kmip1 1", "week": 9, "file": "termkmip1.json" },
+		    { "term": "kmip1 1", "week": 10, "file": "termkmip1.json" },
+	 { "term": "kmip1 2", "week": 1, "file": "termkmip2.json" },
+	  { "term": "kmip1 3", "week": 1, "file": "termkmip3.json" },
+	   { "term": "kmip1 4", "week": 1, "file": "termkmip4.json" },
+	    { "term": "1mip1 1", "week": 1, "file": "1mip1.json" },
+		 { "term": "1mip1 2", "week": 1, "file": "1mip2.json" },
+
+  ]
+}
