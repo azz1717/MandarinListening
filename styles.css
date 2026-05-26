@@ -189,3 +189,7 @@ h1 {
   display: flex;
   flex-direction: column;
 }
+
+#modal-pinyin {
+  white-space: nowrap;
+}
