@@ -71,79 +71,41 @@ function renderWeek() {
   weekInfo.textContent = `Term ${week.term} - Week ${week.week}`;
   phraseContainer.innerHTML = '';
 
-  week.phrases.forEach((phrase) => {
-    const btn = document.createElement('button');
+	week.phrases.forEach((phrase) => {
+		const btn = document.createElement('button');
+		
+		// Just set the text! No image logic needed at all.
+		btn.textContent = phrase.chinese;
 
-    if (phrase.image) {
-      const img = document.createElement('img');
-      img.src = `images/${phrase.image}`;
-      img.alt = phrase.chinese;
-      img.style.width = '100%';
-      img.style.height = 'auto';
-      img.style.display = 'block';
-      
-      // IF THE IMAGE FAILS TO LOAD (File is missing)
-      img.onerror = () => {
-        btn.innerHTML = ''; // Remove the broken image icon
-        btn.textContent = phrase.chinese; // Add the Chinese text
-        
-        // Revert the button styles back to normal
-        btn.style.padding = '1.5rem 2rem';
-        btn.style.border = ''; 
-        btn.style.background = '';
-        
-        // Add your new fallback border class!
-        btn.classList.add('fallback-btn');
-      };
+		btn.addEventListener('click', () => {
+		  if (phrase.audio) {
+			const audio = new Audio(`audio/${phrase.audio}`);
+			audio.play();
+		  }
+		});
 
-      btn.appendChild(img);
+		const infoBtn = document.createElement('span');
+		infoBtn.textContent = '❓';
+		infoBtn.style.marginLeft = '8px';
+		infoBtn.style.cursor = 'pointer';
 
-      // remove padding so image fills button
-      btn.style.padding = '0';
-      btn.style.border = 'none';
-      btn.style.background = 'none';
-      btn.style.cursor = 'pointer';
-      
-    } else {
-      // If there is no image string in the JSON at all
-      btn.textContent = phrase.chinese;
-      btn.style.padding = '1.5rem 2rem'; 
-      btn.classList.add('fallback-btn'); 
-    }
+		infoBtn.addEventListener('click', () => {
+		  let pinyinContent = phrase.pinyin;
+		  
+		  if (phrase.sandhi && phrase.sandhi !== phrase.pinyin) {
+			pinyinContent += `<br><span style="color: green;">${phrase.sandhi}</span>`;
+		  }
+		  
+		  document.getElementById('modal-pinyin').innerHTML = pinyinContent;
+		  document.getElementById('modal-english').textContent = phrase.english;
+		  modal.classList.remove('hidden');
+		});
 
-    btn.addEventListener('click', () => {
-      if (phrase.audio) {
-        const audio = new Audio(`audio/${phrase.audio}`);
-        audio.play();
-      }
-    });
-
-    const infoBtn = document.createElement('span');
-    infoBtn.textContent = '❓';
-    infoBtn.style.marginLeft = '8px';
-    infoBtn.style.cursor = 'pointer';
-
-    infoBtn.addEventListener('click', () => {
-      // Start with the default pinyin
-      let pinyinContent = phrase.pinyin;
-      
-      // Check if sandhi exists and is different from the original pinyin
-      if (phrase.sandhi && phrase.sandhi !== phrase.pinyin) {
-        // Append the sandhi in green (added a line break for cleaner formatting)
-        pinyinContent += `<br><span style="color: green;">${phrase.sandhi}</span>`;
-      }
-      
-      // Use innerHTML instead of textContent so the HTML span tag renders properly
-      document.getElementById('modal-pinyin').innerHTML = pinyinContent;
-      document.getElementById('modal-english').textContent = phrase.english;
-      modal.classList.remove('hidden');
-    });
-
-    const wrapper = document.createElement('div');
-    wrapper.appendChild(btn);
-    wrapper.appendChild(infoBtn);
-    phraseContainer.appendChild(wrapper);
-  });
+		const wrapper = document.createElement('div');
+		wrapper.appendChild(btn);
+		wrapper.appendChild(infoBtn);
+		phraseContainer.appendChild(wrapper);
+	  });
 }
 
 
