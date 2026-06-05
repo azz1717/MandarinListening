@@ -663,6 +663,82 @@
           "image": "1mip1_t2_w6_19.jpg"
         }
       ]
-    }
+    },
+	{
+  "7": {
+    "phrases": [
+      {
+        "chinese": "妈妈和我",
+        "pinyin": "mā ma hé wǒ",
+        "sandhi": "mā ma hé wǒ",
+        "english": "Mom and me",
+        "audio": "mama-he-wo.mp3",
+        "image": "placeholder_1.jpg"
+      },
+      {
+        "chinese": "妈妈的个子高高的，",
+        "pinyin": "mā ma de gè zi gāo gāo de,",
+        "sandhi": "mā ma de gè zi gāo gāo de,",
+        "english": "Mom is tall,",
+        "audio": "mama-de-gezi-gaogao.mp3",
+        "image": "placeholder_2.jpg"
+      },
+      {
+        "chinese": "我的个子矮矮的。",
+        "pinyin": "wǒ de gè zi ǎi ǎi de.",
+        "sandhi": "wǒ de gè zi ái ǎi de.",
+        "english": "I am short.",
+        "audio": "wo-de-gezi-aiai.mp3",
+        "image": "placeholder_3.jpg"
+      },
+      {
+        "chinese": "妈妈的头发长长的，",
+        "pinyin": "mā ma de tóu fa cháng cháng de,",
+        "sandhi": "mā ma de tóu fa cháng cháng de,",
+        "english": "Mom's hair is long,",
+        "audio": "mama-de-toufa-changchang.mp3",
+        "image": "placeholder_4.jpg"
+      },
+      {
+        "chinese": "我的头发短短的。",
+        "pinyin": "wǒ de tóu fa duǎn duǎn de.",
+        "sandhi": "wǒ de tóu fa duán duǎn de.",
+        "english": "My hair is short.",
+        "audio": "wo-de-toufa-duanduan.mp3",
+        "image": "placeholder_5.jpg"
+      },
+      {
+        "chinese": "妈妈的手大大的，",
+        "pinyin": "mā ma de shǒu dà dà de,",
+        "sandhi": "mā ma de shǒu dà dà de,",
+        "english": "Mom's hands are big,",
+        "audio": "mama-de-shou-dada.mp3",
+        "image": "placeholder_6.jpg"
+      },
+      {
+        "chinese": "我的手小小的。",
+        "pinyin": "wǒ de shǒu xiǎo xiǎo de.",
+        "sandhi": "wǒ de shǒu xiáo xiǎo de.",
+        "english": "My hands are small.",
+        "audio": "wo-de-shou-xiaoxiao.mp3",
+        "image": "placeholder_7.jpg"
+      },
+      {
+        "chinese": "妈妈爱吃大西瓜，",
+        "pinyin": "mā ma ài chī dà xī guā,",
+        "sandhi": "mā ma ài chī dà xī guā,",
+        "english": "Mom loves to eat big watermelons,",
+        "audio": "mama-ai-chi-daxigua.mp3",
+        "image": "placeholder_8.jpg"
+      },
+      {
+        "chinese": "我也爱吃大西瓜。",
+        "pinyin": "wǒ yě ài chī dà xī guā.",
+        "sandhi": "wó yě ài chī dà xī guā.",
+        "english": "I also love to eat big watermelons.",
+        "audio": "wo-ye-ai-chi-daxigua.mp3",
+        "image": "placeholder_9.jpg"
+      }
+    ]
   }
 }

@@ -1,4 +1,11 @@
 /* styles.css */
+@font-face {
+  font-family: 'CustomKaiti'; /* You can name this whatever you want */
+  src: url('./fonts/Kaiti.ttf') format('truetype'); /* Path to your font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: 'Kaiti', 'KaiTi', 'KaiTi SC', 'STKaiti', 'AR PL KaitiM GB', serif;
   margin: 0;
