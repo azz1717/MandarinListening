@@ -65,7 +65,8 @@ h1 {
   overflow-x: auto;
   word-wrap: normal;
   border: 3px solid #4a90e2; 
-  box-sizing: border-box; 
+  box-sizing: border-box;
+  transition: all 0.1s ease-in-out;  
 }
 
 #phrase-buttons button:active {

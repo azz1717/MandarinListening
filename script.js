@@ -32,37 +32,82 @@ document.getElementById('close-modal').addEventListener('click', () => {
 function renderSidebar() {
   termWeekPanel.innerHTML = '';
 
+  // 1. Group the weeks by Term, while remembering their original "global" index
+  const groupedTerms = [];
   weeks.forEach((week, index) => {
-    const div = document.createElement('div');
-    div.classList.add('week-item');
+    // Check if we already have a group for this term
+    let group = groupedTerms.find(g => g.term === week.term);
+    if (!group) {
+      group = { term: week.term, items: [] };
+      groupedTerms.push(group);
+    }
+    // Add the week to its term group, saving the index so Next/Prev still works!
+    group.items.push({ weekData: week, globalIndex: index });
+  });
 
-    const input = document.createElement('input');
-    input.type = 'radio';
-    input.name = 'week';
-    input.id = `week${index}`;
-    input.value = index;
+  // 2. Build the collapsible UI for each group
+  groupedTerms.forEach(group => {
+    // Create the collapsible container
+    const details = document.createElement('details');
+    details.classList.add('term-group');
+    
+    // Create the clickable header
+    const summary = document.createElement('summary');
+    summary.textContent = `Term: ${group.term}`;
+    details.appendChild(summary);
 
-    if (index === currentWeekIndex) input.checked = true;
+    const groupDiv = document.createElement('div');
+    groupDiv.classList.add('term-items');
 
-    input.addEventListener('change', () => {
-      currentWeekIndex = index;
-      loadAndRenderCurrentWeek();
+    // Add all the weeks into this group's div
+    group.items.forEach(({ weekData, globalIndex }) => {
+      const div = document.createElement('div');
+      div.classList.add('week-item');
+
+      const input = document.createElement('input');
+      input.type = 'radio';
+      input.name = 'week';
+      input.id = `week${globalIndex}`;
+      input.value = globalIndex;
+
+      // If this is the current week, open the folder automatically!
+      if (globalIndex === currentWeekIndex) {
+        input.checked = true;
+        details.open = true; 
+      }
+
+      input.addEventListener('change', () => {
+        currentWeekIndex = globalIndex;
+        loadAndRenderCurrentWeek();
+      });
+
+      const label = document.createElement('label');
+      label.setAttribute('for', `week${globalIndex}`);
+      // Cleaned up the text since the Term is already in the header
+      label.textContent = `Week ${weekData.week}`; 
+
+      div.appendChild(input);
+      div.appendChild(label);
+      groupDiv.appendChild(div);
     });
 
-    const label = document.createElement('label');
-    label.setAttribute('for', `week${index}`);
-    label.textContent = `Term ${week.term} - Week ${week.week}`;
-
-    div.appendChild(input);
-    div.appendChild(label);
-    termWeekPanel.appendChild(div);
+    details.appendChild(groupDiv);
+    termWeekPanel.appendChild(details);
   });
 }
 
 function updateSidebarSelection() {
   const radios = document.querySelectorAll('input[name="week"]');
   radios.forEach((radio, idx) => {
-    radio.checked = idx === currentWeekIndex;
+    radio.checked = (idx === currentWeekIndex);
+    
+    // If we click "Next" and it jumps to a new Term folder, auto-open that folder!
+    if (idx === currentWeekIndex) {
+      const parentDetails = radio.closest('details');
+      if (parentDetails) {
+        parentDetails.open = true;
+      }
+    }
   });
 }
 
