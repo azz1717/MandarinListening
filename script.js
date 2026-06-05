@@ -91,6 +91,7 @@ function renderWeek() {
     } else {
       btn.textContent = phrase.chinese;
       btn.style.padding = '1.5rem 2rem'; // keep original padding for text buttons
+	  btn.classList.add('fallback-btn'); 
     }
 
     btn.addEventListener('click', () => {

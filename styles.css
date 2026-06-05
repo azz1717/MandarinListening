@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Kaiti', 'KaiTi', 'KaiTi SC', 'STKaiti', 'AR PL KaitiM GB', serif;
+  font-family: 'CustomKaiti', 'KaiTi', 'KaiTi SC', 'STKaiti', 'AR PL KaitiM GB', serif;
   margin: 0;
   padding: 0;
   background: #f0f4f8;
@@ -67,7 +67,19 @@ h1 {
   word-wrap: normal;
 }
 
+/* Styling specifically for the text fallback buttons */
+#phrase-buttons button.fallback-btn {
+  /* Change thickness, style (solid/dashed), and color here */
+  border: 3px solid #4a90e2; 
+  
+  /* Optional: makes the border draw inside the button so it doesn't change the size */
+  box-sizing: border-box; 
+}
 
+/* Optional: Make the border change color when you hover over it */
+#phrase-buttons button.fallback-btn:hover {
+  border-color: #357ab8;
+}
 
 #phrase-buttons button:hover {
   background-color: #d0d0d0;
