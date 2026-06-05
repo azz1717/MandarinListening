@@ -68,6 +68,17 @@ h1 {
   box-sizing: border-box; 
 }
 
+#phrase-buttons button:active {
+  /* This pushes the button down by 3 pixels */
+  transform: translateY(3px); 
+  
+  /* Make the background slightly darker than the hover state (#d0d0d0) */
+  background-color: #c8c8c8; 
+  
+  /* Make the border an even darker blue */
+  border-color: #2a6296; 
+}
+
 
 .controls {
   display: flex;
