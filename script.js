@@ -81,6 +81,21 @@ function renderWeek() {
       img.style.width = '100%';
       img.style.height = 'auto';
       img.style.display = 'block';
+      
+      // IF THE IMAGE FAILS TO LOAD (File is missing)
+      img.onerror = () => {
+        btn.innerHTML = ''; // Remove the broken image icon
+        btn.textContent = phrase.chinese; // Add the Chinese text
+        
+        // Revert the button styles back to normal
+        btn.style.padding = '1.5rem 2rem';
+        btn.style.border = ''; 
+        btn.style.background = '';
+        
+        // Add your new fallback border class!
+        btn.classList.add('fallback-btn');
+      };
+
       btn.appendChild(img);
 
       // remove padding so image fills button
@@ -88,10 +103,12 @@ function renderWeek() {
       btn.style.border = 'none';
       btn.style.background = 'none';
       btn.style.cursor = 'pointer';
+      
     } else {
+      // If there is no image string in the JSON at all
       btn.textContent = phrase.chinese;
-      btn.style.padding = '1.5rem 2rem'; // keep original padding for text buttons
-	  btn.classList.add('fallback-btn'); 
+      btn.style.padding = '1.5rem 2rem'; 
+      btn.classList.add('fallback-btn'); 
     }
 
     btn.addEventListener('click', () => {
