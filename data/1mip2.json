@@ -647,7 +647,119 @@
           "sandhi": "wó yě ài chī dà xī guā.",
           "english": "I also love to eat big watermelons.",
           "audio": "wo-ye-ai-chi-daxigua.mp3"
-        }
+        },
+		{
+			"chinese": "高高的",
+			"pinyin": "gāo gāo de",
+			"sandhi": "gāo gāo de",
+			"english": "high / tall",
+			"audio": "gaogaode.mp3"
+		  },
+		  {
+			"chinese": "高兴",
+			"pinyin": "gāo xìng",
+			"sandhi": "gāo xìng",
+			"english": "happy / glad",
+			"audio": "gaoxing.mp3"
+		  },
+		  {
+			"chinese": "很高",
+			"pinyin": "hěn gāo",
+			"sandhi": "hěn gāo",
+			"english": "very high / very tall",
+			"audio": "hengao.mp3"
+		  },
+		  {
+			"chinese": "木头",
+			"pinyin": "mù tou",
+			"sandhi": "mù tou",
+			"english": "wood / log",
+			"audio": "mutou.mp3"
+		  },
+		  {
+			"chinese": "石头",
+			"pinyin": "shí tou",
+			"sandhi": "shí tou",
+			"english": "stone / rock",
+			"audio": "shitou.mp3"
+		  },
+		  {
+			"chinese": "头发",
+			"pinyin": "tóu fa",
+			"sandhi": "tóu fa",
+			"english": "hair",
+			"audio": "toufa.mp3"
+		  },
+		  {
+			"chinese": "很长",
+			"pinyin": "hěn cháng",
+			"sandhi": "hěn cháng",
+			"english": "very long",
+			"audio": "henchang.mp3"
+		  },
+		  {
+			"chinese": "长短",
+			"pinyin": "cháng duǎn",
+			"sandhi": "cháng duǎn",
+			"english": "length / long and short",
+			"audio": "changduan.mp3"
+		  },
+		  {
+			"chinese": "长长的",
+			"pinyin": "cháng cháng de",
+			"sandhi": "cháng cháng de",
+			"english": "long",
+			"audio": "changchangde.mp3"
+		  },
+		  {
+			"chinese": "长大",
+			"pinyin": "zhǎng dà",
+			"sandhi": "zhǎng dà",
+			"english": "to grow up",
+			"audio": "zhangda.mp3"
+		  },
+		  {
+			"chinese": "西瓜",
+			"pinyin": "xī guā",
+			"sandhi": "xī guā",
+			"english": "watermelon",
+			"audio": "xigua.mp3"
+		  },
+		  {
+			"chinese": "东西",
+			"pinyin": "dōng xi",
+			"sandhi": "dōng xi",
+			"english": "thing / stuff",
+			"audio": "dongxi.mp3"
+		  },
+		  {
+			"chinese": "西瓜",
+			"pinyin": "xī guā",
+			"sandhi": "xī guā",
+			"english": "watermelon",
+			"audio": "xigua.mp3"
+		  },
+		  {
+			"chinese": "黄瓜",
+			"pinyin": "huáng guā",
+			"sandhi": "huáng guā",
+			"english": "cucumber",
+			"audio": "huanggua.mp3"
+		  },
+		  {
+			"chinese": "南瓜",
+			"pinyin": "nán guā",
+			"sandhi": "nán guā",
+			"english": "pumpkin",
+			"audio": "nangua.mp3"
+		  },
+		  {
+			"chinese": "瓜子",
+			"pinyin": "guā zǐ",
+			"sandhi": "guā zǐ",
+			"english": "melon seeds",
+			"audio": "guazi.mp3"
+		  }
       ]
     },
     "8": {
@@ -700,7 +812,112 @@
           "sandhi": "wǒ hé wǒ de hǎo péng you ài chī bīng qí lín.",
           "english": "My good friend and I love to eat ice cream.",
           "audio": "wo-he-wo-de-hao-pengyou-ai-chi-bingqilin.mp3"
-        }
+        },
+		  {
+			"chinese": "小猫",
+			"pinyin": "xiǎo māo",
+			"sandhi": "xiǎo māo",
+			"english": "little cat / kitten",
+			"audio": "xiaomao.mp3"
+		  },
+		  {
+			"chinese": "小花猫",
+			"pinyin": "xiǎo huā māo",
+			"sandhi": "xiǎo huā māo",
+			"english": "little spotted cat",
+			"audio": "xiaohuamao.mp3"
+		  },
+		  {
+			"chinese": "小黑猫",
+			"pinyin": "xiǎo hēi māo",
+			"sandhi": "xiǎo hēi māo",
+			"english": "little black cat",
+			"audio": "xiaoheimao.mp3"
+		  },
+		  {
+			"chinese": "小狗",
+			"pinyin": "xiǎo gǒu",
+			"sandhi": "xiáo gǒu",
+			"english": "little dog / puppy",
+			"audio": "xiaogou.mp3"
+		  },
+		  {
+			"chinese": "小黑狗",
+			"pinyin": "xiǎo hēi gǒu",
+			"sandhi": "xiǎo hēi gǒu",
+			"english": "little black dog",
+			"audio": "xiaoheigou.mp3"
+		  },
+		  {
+			"chinese": "小花狗",
+			"pinyin": "xiǎo huā gǒu",
+			"sandhi": "xiǎo huā gǒu",
+			"english": "little spotted dog",
+			"audio": "xiaohuagou.mp3"
+		  },
+		  {
+			"chinese": "小鱼",
+			"pinyin": "xiǎo yú",
+			"sandhi": "xiǎo yú",
+			"english": "little fish",
+			"audio": "xiaoyu.mp3"
+		  },
+		  {
+			"chinese": "鱼儿",
+			"pinyin": "yú ér",
+			"sandhi": "yú ér",
+			"english": "fish",
+			"audio": "yuer.mp3"
+		  },
+		  {
+			"chinese": "金鱼",
+			"pinyin": "jīn yú",
+			"sandhi": "jīn yú",
+			"english": "goldfish",
+			"audio": "jinyu.mp3"
+		  },
+		  {
+			"chinese": "三文鱼",
+			"pinyin": "sān wén yú",
+			"sandhi": "sān wén yú",
+			"english": "salmon",
+			"audio": "sanwenyu.mp3"
+		  },
+		  {
+			"chinese": "大米",
+			"pinyin": "dà mǐ",
+			"sandhi": "dà mǐ",
+			"english": "rice",
+			"audio": "dami.mp3"
+		  },
+		  {
+			"chinese": "白米",
+			"pinyin": "bái mǐ",
+			"sandhi": "bái mǐ",
+			"english": "white rice",
+			"audio": "baimi.mp3"
+		  },
+		  {
+			"chinese": "一米",
+			"pinyin": "yī mǐ",
+			"sandhi": "yì mǐ",
+			"english": "one meter",
+			"audio": "yimi.mp3"
+		  },
+		  {
+			"chinese": "虫子",
+			"pinyin": "chóng zi",
+			"sandhi": "chóng zi",
+			"english": "bug / insect",
+			"audio": "chongzi.mp3"
+		  },
+		  {
+			"chinese": "毛毛虫",
+			"pinyin": "máo mao chóng",
+			"sandhi": "máo mao chóng",
+			"english": "caterpillar",
+			"audio": "maomaochong.mp3"
+		  }
       ]
     }
   }
